@@ -7,6 +7,7 @@ export default defineNuxtConfig({
   build: {
     transpile: ['vuetify'],
   },
+  plugins: ['~/plugins/firebase'],
   vite: {
     define: {
       'process.env.DEBUG': false,
