@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  nuxt:
+    build:
+      context: ./frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+    command: ["npm", "run", "dev"]
+
+  firebase:
+    build:
+      context: ./firebase
+    ports:
+      - "4000:4000" # Emulator UI
+      - "8080:8080" # Firestore
+      - "9099:9099" # Auth
+    volumes:
+      - ./firebase:/firebase
+    command: ["firebase", "emulators:start", "--project", "demo-project"]
