@@ -1,15 +1,15 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: "2025-05-15",
+  compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
-  modules: ["@nuxt/eslint", "@nuxt/content", "@nuxtjs/tailwindcss"],
-  css: ["vuetify/styles", "@mdi/font/css/materialdesignicons.css"],
+  modules: ['@nuxt/eslint', '@nuxt/content', '@nuxtjs/tailwindcss'],
+  css: ['vuetify/styles', '@mdi/font/css/materialdesignicons.css'],
   build: {
-    transpile: ["vuetify"],
+    transpile: ['vuetify'],
   },
   vite: {
     define: {
-      "process.env.DEBUG": false,
+      'process.env.DEBUG': false,
     },
     css: {
       preprocessorOptions: {
@@ -19,4 +19,8 @@ export default defineNuxtConfig({
       },
     },
   },
-});
+  ssr: false,
+  nitro: {
+    preset: 'static',
+  },
+})
