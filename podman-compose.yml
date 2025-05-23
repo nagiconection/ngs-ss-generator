@@ -8,6 +8,7 @@ services:
       - "3000:3000"
     volumes:
       - ./frontend:/app
+      - /app/node_modules
     command: ["npm", "run", "dev"]
 
   firebase:
@@ -18,5 +19,5 @@ services:
       - "8080:8080" # Firestore
       - "9099:9099" # Auth
     volumes:
-      - ./firebase:/firebase
+      - ./firebase:/app
     command: ["firebase", "emulators:start", "--project", "demo-project"]
