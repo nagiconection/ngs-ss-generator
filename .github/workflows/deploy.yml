@@ -21,6 +21,9 @@ jobs:
           npm run generate
         working-directory: frontend
 
+      - name: Debug Show contents of .output/public
+        run: ls -la frontend/.output/public
+
       - name: Deploy to Firebase
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
