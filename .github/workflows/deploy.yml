@@ -18,11 +18,9 @@ jobs:
       - name: Install dependencies and build Nuxt
         run: |
           npm ci
+          npm run build
           npm run generate
         working-directory: frontend
-
-      - name: Debug Show contents of .output/public
-        run: ls -la frontend/.output/public
 
       - name: Deploy to Firebase
         uses: FirebaseExtended/action-hosting-deploy@v0
@@ -31,4 +29,3 @@ jobs:
           firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}"
           projectId: ngs-ss-generator-fb
           channelId: live
-          entryPoint: ./firebase
