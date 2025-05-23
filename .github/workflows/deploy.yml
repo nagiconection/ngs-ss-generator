@@ -31,4 +31,4 @@ jobs:
           firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}"
           projectId: ngs-ss-generator-fb
           channelId: live
-        working-directory: firebase
+          entryPoint: ./firebase
