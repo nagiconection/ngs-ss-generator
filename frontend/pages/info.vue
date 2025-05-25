@@ -19,7 +19,7 @@
           target="_blank"
           class="text-decoration-none"
         >
-          your-repo
+          GitHbub
         </a>
       </v-card-text>
     </v-card>
