@@ -7,15 +7,15 @@
     </v-alert>
 
     <v-row v-else>
-      <v-col v-for="(item, index) in favorites" :key="index" cols="12" md="6" lg="4">
+      <v-col v-for="item in favorites" :key="item.id" cols="12" md="6" lg="4">
         <v-card>
           <v-card-title class="text-subtitle-1">
-            {{ item.command }}
+            {{ item.generatedCfCommand }}
           </v-card-title>
-          <v-card-subtitle>保存日: {{ formatDate(item.savedAt) }}</v-card-subtitle>
+          <v-card-subtitle>保存日: {{ formatDate(item.addedAt) }}</v-card-subtitle>
           <v-card-actions class="justify-space-between">
             <v-btn color="primary" @click="goToTopWithParams(item)">再現する</v-btn>
-            <v-btn icon color="error" @click="deleteFavorite(index)">
+            <v-btn icon color="error" @click="deleteFavorite(item.id)">
               <v-icon>mdi-delete</v-icon>
             </v-btn>
           </v-card-actions>
@@ -23,7 +23,6 @@
       </v-col>
     </v-row>
 
-    <!-- Snackbar -->
     <v-snackbar v-model="snackbar" color="info" timeout="3000">
       {{ snackbarMessage }}
     </v-snackbar>
@@ -33,56 +32,61 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
-import { useTempSelection } from '~/composables/useTempSelection' // ← 追加
+import type { CommandFormModel } from '~/models/CommandFormModel'
+import { getAllFavorites, deleteFavorite as dbDeleteFavorite } from '~/utils/indexedDb'
+import { setRestore } from '~/composables/useRestore'
 
-interface FavoriteItem {
-  color: string
-  action: string
-  command: string
-  savedAt: string
+// IndexedDB に保存している形に合わせて型定義
+interface FavoriteItem extends CommandFormModel {
+  id: number // autoIncrement された ID
+  addedAt: string // ISO 日時文字列
+  tab: string
 }
 
 const router = useRouter()
-const FAVORITE_KEY = 'favorites'
 const favorites = ref<FavoriteItem[]>([])
 
-// Snackbar
+// Snackbar 用
 const snackbar = ref(false)
 const snackbarMessage = ref('')
 
-// IndexedDB 経由の一時保存
-const { saveTempSelection } = useTempSelection()
-
-onMounted(() => {
-  loadFavorites()
+onMounted(async () => {
+  await loadFavorites()
 })
 
-function loadFavorites() {
-  const data = localStorage.getItem(FAVORITE_KEY)
-  favorites.value = data ? JSON.parse(data) : []
+/** IndexedDB から一覧を読み込む */
+async function loadFavorites() {
+  const items = await getAllFavorites()
+  favorites.value = items.map((item: any) => ({
+    id: item.id,
+    addedAt: item.addedAt,
+    ...item,
+  }))
 }
 
-function saveFavorites() {
-  localStorage.setItem(FAVORITE_KEY, JSON.stringify(favorites.value))
-}
-
-function deleteFavorite(index: number) {
-  favorites.value.splice(index, 1)
-  saveFavorites()
+/** 削除ボタン押下時に ID を渡して削除 + 再読込 */
+async function deleteFavorite(id: number) {
+  await dbDeleteFavorite(id)
+  await loadFavorites()
   snackbarMessage.value = 'お気に入りを削除しました'
   snackbar.value = true
 }
 
-async function goToTopWithParams(item: FavoriteItem) {
-  await saveTempSelection({
-    color: item.color,
-    action: item.action,
+/** ISO 文字列を日本ロケールで整形 */
+function formatDate(iso: string): string {
+  return new Date(iso).toLocaleString('ja-JP', {
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
   })
-  router.push('/')
 }
 
-function formatDate(iso: string): string {
-  const date = new Date(iso)
-  return date.toLocaleString()
+const currentTab = ref<'easySetttings' | 'deepSetttings'>()
+
+function goToTopWithParams(item: FavoriteItem) {
+  setRestore(item.id, item.tab)
+  router.push({ path: '/' })
 }
 </script>
