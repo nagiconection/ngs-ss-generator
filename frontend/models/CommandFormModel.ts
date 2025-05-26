@@ -58,6 +58,10 @@ export interface CommandFormModel {
   isStopActionAfterAlways: boolean
   /** 指定する秒数 */
   stopActionAfterSeconds: number
+  /** ハンドサインを使用するかどうか */
+  useHandSign: boolean
+  /** ハンドサインの選択 */
+  selectedHandSign: string
   /** CF:顔向き設定の生成コマンド */
   generatedCfCommand: string
   /** 生成されたコマンド */
@@ -78,6 +82,10 @@ export interface DisabledFormModel {
   cfVNumGroup: boolean
   /** dの値の活性状態 */
   cfDNumGroup: boolean
+  /** 指定後に10秒間停止するかどうかの活性状態 */
+  isStopActionAfterSeconds: boolean
+  /** 指定後に無限に停止するかどうかの活性状態 */
+  isStopActionAfterAlways: boolean
 }
 
 /**
@@ -111,7 +119,9 @@ export const createDefaultCommandFormModel = (): CommandFormModel => ({
   isStopActionAfterSeconds: false,
   isStopActionAfterAlways: false,
   stopActionAfterSeconds: 0.0,
-  selectedLobyAction: '',
+  selectedLobyAction: 'monomane',
+  useHandSign: false,
+  selectedHandSign: 'ha clenchedfist',
   generatedCfCommand: '/cf',
   generatedCommand: '',
 })
@@ -125,4 +135,6 @@ export const createDisabledFormModel = (): DisabledFormModel => ({
   cfHNumGroup: false,
   cfVNumGroup: false,
   cfDNumGroup: false,
+  isStopActionAfterSeconds: false,
+  isStopActionAfterAlways: false,
 })

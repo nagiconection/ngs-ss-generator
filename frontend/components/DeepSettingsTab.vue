@@ -238,7 +238,7 @@
         <v-col cols="12" md="6">
           <v-autocomplete
             v-model="props.form.selectedLobyAction"
-            :items="lobyActions ?? []"
+            :items="lobyActions"
             item-title="name"
             item-value="chatCommand"
             label="ロビーアクション"
@@ -246,6 +246,25 @@
             clearable
             density="compact"
             @update:modelValue="onUseLobyActionChange"
+          />
+          <v-checkbox
+            v-model="props.form.useHandSign"
+            label="ハンドサインを使用する"
+            density="compact"
+            hide-details
+            class="checkbox-no-gap"
+            @update:modelValue="onUseHandSignChange"
+          />
+          <v-autocomplete
+            v-model="props.form.selectedHandSign"
+            :items="handSign"
+            item-title="name"
+            item-value="chatCommand"
+            label="ハンドサイン"
+            chips
+            clearable
+            density="compact"
+            @update:modelValue="onUseHandSignChange"
           />
         </v-col>
         <v-col cols="12" md="6">
@@ -262,6 +281,7 @@
             density="compact"
             hide-details
             @update:modelValue="onUseLobyActionStopChange"
+            :disabled="props.formState.isStopActionAfterSeconds"
           ></v-checkbox>
           <v-checkbox
             v-model="props.form.isStopActionAfterAlways"
@@ -269,6 +289,7 @@
             density="compact"
             hide-details
             @update:modelValue="onUseLobyActionStopChange"
+            :disabled="props.formState.isStopActionAfterAlways"
           ></v-checkbox>
           <v-number-input
             v-model="props.form.stopActionAfterSeconds"
@@ -364,7 +385,11 @@ const emit = defineEmits<{
 const canSave = computed(() => {
   return props.form.generatedCfCommand.trim().length > 0
 })
+
+/** ロビーアクション保持 */
 const lobyActions = ref<any>()
+
+const handSign = ref<any>()
 
 /**
  * 顔の向きリセットコマンド用
@@ -374,9 +399,19 @@ const resetCommand = ref(CF_RESET)
 onMounted(async () => {
   // 'loby_actions' キーで保存してあるマスターデータを取得
   const data = await getMasterData('loby_actions')
-  console.log(data)
   if (data) {
     lobyActions.value = data.map((action: any) => {
+      return {
+        name: action.name,
+        chatCommand: action.chatCommand,
+      }
+    })
+  }
+
+  // 'hand_sign' キーで保存してあるマスターデータを取得
+  const dataHa = await getHaMasterData('hand_sign')
+  if (dataHa) {
+    handSign.value = dataHa.map((action: any) => {
       return {
         name: action.name,
         chatCommand: action.chatCommand,
@@ -507,11 +542,17 @@ function onCfHasCfDChange() {
 function onUseLobyActionChange() {
   rebuildCfCommand()
 }
+/** ハンドサインを使用するのチェックボックスの変更設定 */
+function onUseHandSignChange() {
+  rebuildCfCommand()
+}
 
 /**
  *  ロビーアクションの停止設定の変更
  */
 function onUseLobyActionStopChange() {
+  props.formState.isStopActionAfterSeconds = props.form.isStopActionAfterAlways
+  props.formState.isStopActionAfterAlways = props.form.isStopActionAfterSeconds
   rebuildCfCommand()
 }
 
@@ -562,6 +603,11 @@ function rebuildCfCommand() {
       parts.push('/la')
     }
     parts.push(props.form.selectedLobyAction)
+
+    if (props.form.useHandSign) {
+      parts.push(props.form.selectedHandSign)
+    }
+
     if (props.form.isStopActionAfterSeconds) {
       parts.push(
         `${LOBY_ACTION_OPTION.stopActionAfterSeconds.chatCommand}${props.form.stopActionAfterSeconds}`
