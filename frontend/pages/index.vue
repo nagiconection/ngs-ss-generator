@@ -47,8 +47,21 @@ import { createDefaultCommandFormModel, createDisabledFormModel } from '~/models
 import { getFavorite } from '~/utils/indexedDb'
 import { useRestore, clearRestore } from '~/composables/useRestore'
 
+import { doc, getDoc, Timestamp } from 'firebase/firestore'
+import { useNuxtApp } from '#app'
+import { getStorage, ref as storageRef, getDownloadURL } from 'firebase/storage'
+import { saveMasterData } from '~/utils/indexedDb'
+
+interface VersionRecord {
+  version: number
+  publish: number
+}
+
 // タブの v-model
 const tab = ref<'easySetttings' | 'deepSetttings'>('easySetttings')
+
+/** firestoreStorage */
+const { $db } = useNuxtApp()
 
 // フォームと state の生成
 const form = reactive(createDefaultCommandFormModel())
@@ -57,6 +70,11 @@ const formState = reactive(createDisabledFormModel())
 // Snackbar
 const snackbar = ref(false)
 const snackbarMessage = ref('')
+
+// ローカルに保存されているバージョン情報
+const localVersion = ref<VersionRecord | null>(null)
+// Firestore からフェッチしたバージョン情報
+const remoteVersion = ref<VersionRecord | null>(null)
 
 /** コピー通知 */
 async function copyCommand(value: string) {
@@ -75,25 +93,72 @@ function notify(message: string) {
   snackbar.value = true
 }
 
-// useRestore から id/tab/pending を取ってくる
 const restore = useRestore()
 
 onMounted(async () => {
+  console.log(useRuntimeConfig().public)
+  // お気に入り再現
   if (restore.pending && restore.id != null) {
-    // 1) IndexedDB から該当レコードを取得
     const record = await getFavorite(restore.id)
     if (record) {
-      // 2) フォームに丸ごとセット
       Object.assign(form, record)
-      // 3) タブを復元（record.tab が valid な場合だけ）
       if (record.tab === 'easySetttings' || record.tab === 'deepSetttings') {
         tab.value = record.tab
       }
-      // 4) 通知
       notify('お気に入りを復元しました')
     }
-    // 5) 一度復元したらフラグクリア
     clearRestore()
+  }
+
+  try {
+    // Firestore からフェッチ
+    const snap = await getDoc(doc($db, 'version', 'version'))
+    if (!snap.exists()) {
+      console.warn('version情報が取得できませんでした')
+      return
+    }
+    const data = snap.data() as { version: number; publish: Timestamp }
+    remoteVersion.value = {
+      version: data.version,
+      publish: data.publish.toMillis(),
+    }
+
+    // IndexedDB からフェッチ
+    const stored = await getVersion('version')
+    localVersion.value = stored ? { version: stored.version, publish: stored.publish } : null
+
+    // アップデートの必要を確認
+    const needUpdate =
+      !localVersion.value ||
+      remoteVersion.value.version > localVersion.value.version ||
+      remoteVersion.value.publish > localVersion.value.publish
+
+    if (needUpdate) {
+      // 最新バージョンまでループして差分を取得
+      const fromVer = localVersion.value?.version ?? 0
+      const toVer = remoteVersion.value!.version
+      const storage = getStorage()
+
+      for (let v = fromVer + 1; v <= toVer; v++) {
+        const fileName = `loby_actions_${v}.json`
+        const url = await getDownloadURL(storageRef(storage, fileName))
+
+        const jsonData: any[] = await fetch(url).then(res => res.json())
+        await saveMasterData('loby_actions', jsonData)
+      }
+
+      // IndexedDB に最新情報を保存
+      await saveVersion('version', {
+        version: remoteVersion.value.version,
+        publish: remoteVersion.value.publish,
+      })
+      notify('データを更新しました。')
+    } else {
+      notify('データは最新です')
+    }
+  } catch (e) {
+    notify('version チェック中にエラーが発生しました:')
+    console.error(e)
   }
 })
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <v-row class="pb-16">
+  <v-row class="p-space">
     <v-col cols="12" class="pt-5">
       <div class="text-h5 font-weight-bold text-primary mb-2">顔の向きの設定(/cf)</div>
       <div class="text-primary mb-2">※組み合わせによってはコマンドが機能しない場合があります</div>
@@ -224,6 +224,69 @@
       </v-row>
       <hr />
     </v-col>
+    <v-col cols="12">
+      <div class="text-h6 font-weight-bold text-primary mb-2">ロビーアクション設定</div>
+      <v-checkbox
+        v-model="props.form.useLobyAction"
+        label="ロビーアクションを使用する"
+        density="compact"
+        hide-details
+        class="checkbox-no-gap"
+        @update:modelValue="onUseLobyActionChange"
+      />
+      <v-row v-if="props.form.useLobyAction">
+        <v-col cols="12" md="6">
+          <v-autocomplete
+            v-model="props.form.selectedLobyAction"
+            :items="lobyActions ?? []"
+            item-title="name"
+            item-value="chatCommand"
+            label="ロビーアクション"
+            chips
+            clearable
+            density="compact"
+            @update:modelValue="onUseLobyActionChange"
+          />
+        </v-col>
+        <v-col cols="12" md="6">
+          <v-checkbox
+            v-model="props.form.isUseGenderMotion"
+            :label="LOBY_ACTION_OPTION.useGenderMotion.name"
+            density="compact"
+            hide-details
+            @update:modelValue="onUseLobyActionChange"
+          ></v-checkbox>
+          <v-checkbox
+            v-model="props.form.isStopActionAfterSeconds"
+            :label="LOBY_ACTION_OPTION.stopActionAfterSeconds.name"
+            density="compact"
+            hide-details
+            @update:modelValue="onUseLobyActionStopChange"
+          ></v-checkbox>
+          <v-checkbox
+            v-model="props.form.isStopActionAfterAlways"
+            :label="LOBY_ACTION_OPTION.stopActionAfterAlways.name"
+            density="compact"
+            hide-details
+            @update:modelValue="onUseLobyActionStopChange"
+          ></v-checkbox>
+          <v-number-input
+            v-model="props.form.stopActionAfterSeconds"
+            type="number"
+            density="compact"
+            hide-details
+            class="my-0 py-0"
+            :precision="2"
+            :step="0.01"
+            @blur="normalizeSecondsNumber"
+            @update:modelValue="onUseLobyActionStopChange"
+            :min="LOBY_ACTION_OPTION.stopActionAfterSeconds.minNumber"
+            :max="LOBY_ACTION_OPTION.stopActionAfterSeconds.maxNumber"
+          ></v-number-input>
+        </v-col>
+        <hr />
+      </v-row>
+    </v-col>
   </v-row>
   <div class="fixed-copy-bar">
     <v-container class="py-2">
@@ -248,6 +311,10 @@
 </template>
 
 <style scoped>
+.p-space {
+  padding-bottom: 120px;
+}
+
 hr {
   margin: 1rem 0;
   border: 0;
@@ -280,7 +347,7 @@ hr {
 
 <script setup lang="ts">
 import { type CommandFormModel, type DisabledFormModel } from '~/models/CommandFormModel'
-import { CF_RESET, CAM_COMMAND } from '~/constants/const'
+import { CF_RESET, CAM_COMMAND, LOBY_ACTION_OPTION } from '~/constants/const'
 
 const props = defineProps<{
   form: CommandFormModel
@@ -297,11 +364,26 @@ const emit = defineEmits<{
 const canSave = computed(() => {
   return props.form.generatedCfCommand.trim().length > 0
 })
+const lobyActions = ref<any>()
 
 /**
  * 顔の向きリセットコマンド用
  */
 const resetCommand = ref(CF_RESET)
+
+onMounted(async () => {
+  // 'loby_actions' キーで保存してあるマスターデータを取得
+  const data = await getMasterData('loby_actions')
+  console.log(data)
+  if (data) {
+    lobyActions.value = data.map((action: any) => {
+      return {
+        name: action.name,
+        chatCommand: action.chatCommand,
+      }
+    })
+  }
+})
 
 /**
  * お気に入りに保存する処理
@@ -340,6 +422,20 @@ function normalizeHVDnumber() {
     props.form.cfDnum = minDNumber
   } else if (props.form.cfDnum > maxDNumber) {
     props.form.cfDnum = maxDNumber
+  }
+}
+
+/**
+ * ロビーアクションの秒数を正規化する関数
+ * 数値が範囲外の場合、最小値または最大値に設定する
+ */
+function normalizeSecondsNumber() {
+  const minSecNumber = LOBY_ACTION_OPTION.stopActionAfterSeconds.minNumber
+  const maxSecNumber = LOBY_ACTION_OPTION.stopActionAfterSeconds.maxNumber
+  if (props.form.stopActionAfterSeconds < minSecNumber) {
+    props.form.stopActionAfterSeconds = minSecNumber
+  } else if (props.form.stopActionAfterSeconds > maxSecNumber) {
+    props.form.stopActionAfterSeconds = maxSecNumber
   }
 }
 
@@ -405,6 +501,19 @@ function onCfHasCfVChange() {
 function onCfHasCfDChange() {
   rebuildCfCommand()
 }
+/**
+ * ロビーアクションの使用チェックボックスの変更設定
+ */
+function onUseLobyActionChange() {
+  rebuildCfCommand()
+}
+
+/**
+ *  ロビーアクションの停止設定の変更
+ */
+function onUseLobyActionStopChange() {
+  rebuildCfCommand()
+}
 
 /**
  * form の各フラグを見て generatedCfCommand を再構築する
@@ -443,6 +552,25 @@ function rebuildCfCommand() {
   if (props.form.hasCfDnum) {
     if (!props.formState.cfDNumGroup) {
       parts.push(`${CAM_COMMAND.d.chatCommand}${props.form.cfDnum}`)
+    }
+  }
+
+  if (props.form.useLobyAction) {
+    if (props.form.isUseGenderMotion) {
+      parts.push('/' + LOBY_ACTION_OPTION.useGenderMotion.chatCommand)
+    } else {
+      parts.push('/la')
+    }
+    parts.push(props.form.selectedLobyAction)
+    if (props.form.isStopActionAfterSeconds) {
+      parts.push(
+        `${LOBY_ACTION_OPTION.stopActionAfterSeconds.chatCommand}${props.form.stopActionAfterSeconds}`
+      )
+    }
+    if (props.form.isStopActionAfterAlways) {
+      parts.push(
+        `${LOBY_ACTION_OPTION.stopActionAfterAlways.chatCommand}${props.form.stopActionAfterSeconds}`
+      )
     }
   }
 

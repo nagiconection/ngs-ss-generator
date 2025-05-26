@@ -6,9 +6,9 @@
       <v-timeline-item
         v-for="(item, index) in newsList"
         :key="index"
-        :dot-color="'primary'"
-        :icon="'mdi-bell-outline'"
-        :fill-dot="true"
+        dot-color="primary"
+        icon="mdi-bell-outline"
+        fill-dot
       >
         <template #opposite>
           {{ formatDate(item.date) }}
@@ -26,34 +26,54 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
+import { collection, getDocs, orderBy, query, Timestamp } from 'firebase/firestore'
+import { useNuxtApp } from '#app'
 
+// date は Date 型に変換して保持
 interface NewsItem {
-  date: string
+  date: Date
   title: string
   body: string
 }
 
-// 仮のデータ（後でAPIやFirebaseに置換可能）
-const newsList = ref<NewsItem[]>([
-  {
-    date: '2025-05-23',
-    title: 'お気に入り機能を追加しました',
-    body: '保存されたフォームを復元できるようになりました。',
-  },
-  {
-    date: '2025-05-21',
-    title: '初期リリース',
-    body: 'フォームでコマンドを生成できるようになりました。',
-  },
-])
+const newsList = ref<NewsItem[]>([])
+const { $db } = useNuxtApp()
 
-function formatDate(dateStr: string): string {
-  const date = new Date(dateStr)
+/**
+ * 日付を "YYYY年M月D日" 形式にフォーマット
+ */
+function formatDate(date: Date): string {
   return date.toLocaleDateString('ja-JP', {
     year: 'numeric',
     month: 'long',
     day: 'numeric',
   })
 }
+
+onMounted(async () => {
+  try {
+    const noticesCol = collection($db, 'notices')
+    const q = query(noticesCol, orderBy('date', 'desc'))
+    const snapshot = await getDocs(q)
+    newsList.value = snapshot.docs.map(doc => {
+      const data = doc.data() as { date: unknown; title: string; body: string }
+      let dateObj: Date
+      if (data.date instanceof Timestamp) {
+        dateObj = data.date.toDate()
+      } else if (typeof data.date === 'number' || typeof data.date === 'string') {
+        dateObj = new Date(data.date)
+      } else {
+        dateObj = new Date()
+      }
+      return {
+        date: dateObj,
+        title: data.title,
+        body: data.body,
+      }
+    })
+  } catch (e) {
+    console.error('Firestore からお知らせを取得できませんでした:', e)
+  }
+})
 </script>

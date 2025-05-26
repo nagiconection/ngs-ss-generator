@@ -46,6 +46,18 @@ export interface CommandFormModel {
   cfDnum: number
   /** CF:角度有効 */
   hasCfDnum: boolean
+  /** ロビーアクションを使うかどうか  */
+  useLobyAction: boolean
+  /** 選択しているロビーアクション */
+  selectedLobyAction: string
+  /** 異性モーションを使用する */
+  isUseGenderMotion: boolean
+  /** 指定後に10秒間停止する */
+  isStopActionAfterSeconds: boolean
+  /** 指定後に無限に停止する */
+  isStopActionAfterAlways: boolean
+  /** 指定する秒数 */
+  stopActionAfterSeconds: number
   /** CF:顔向き設定の生成コマンド */
   generatedCfCommand: string
   /** 生成されたコマンド */
@@ -94,6 +106,12 @@ export const createDefaultCommandFormModel = (): CommandFormModel => ({
   hasCfVnum: false,
   cfDnum: 0,
   hasCfDnum: false,
+  useLobyAction: false,
+  isUseGenderMotion: false,
+  isStopActionAfterSeconds: false,
+  isStopActionAfterAlways: false,
+  stopActionAfterSeconds: 0.0,
+  selectedLobyAction: '',
   generatedCfCommand: '/cf',
   generatedCommand: '',
 })

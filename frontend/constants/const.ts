@@ -15,6 +15,33 @@ export const SPECIAL_CAM_COMMAND = [
   },
 ]
 
+export const LOBY_ACTION_OPTION = {
+  useGenderMotion: {
+    name: '別タイプ（異性モーション）を使用する',
+    chatCommand: 'cla',
+    category: '1',
+    updateDate: '2025-05-23 00:00:00',
+  },
+  stopActionAfterSeconds: {
+    name: '指定後に10秒間停止',
+    chatCommand: 's',
+    category: '2',
+    hasNumber: true,
+    minNumber: 0.0,
+    maxNumber: 10.0,
+    updateDate: '2025-05-23 00:00:00',
+  },
+  stopActionAfterAlways: {
+    name: '指定後に無限に停止',
+    chatCommand: 'ss',
+    category: '3',
+    hasNumber: true,
+    minNumber: 0.0,
+    maxNumber: 10.0,
+    updateDate: '2025-05-23 00:00:00',
+  },
+}
+
 /**
  * cf設定ファイル
  */
