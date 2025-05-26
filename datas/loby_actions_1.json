@@ -1,0 +1,6668 @@
+[
+  {
+    "name": "モノマネ",
+    "loop": "",
+    "chatCommand": "monomane",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "リアクション",
+    "loop": "",
+    "chatCommand": "reaction",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "挨拶",
+    "loop": "",
+    "chatCommand": "greet",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "手を振る",
+    "loop": "",
+    "chatCommand": "wave",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "礼",
+    "loop": "",
+    "chatCommand": "bow",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "敬礼",
+    "loop": "",
+    "chatCommand": "salute",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "肯定",
+    "loop": "",
+    "chatCommand": "yes",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "否定",
+    "loop": "",
+    "chatCommand": "no",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "謝る",
+    "loop": "",
+    "chatCommand": "sorry",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "挑発",
+    "loop": "",
+    "chatCommand": "provoke",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "褒める",
+    "loop": "",
+    "chatCommand": "praise",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "キス",
+    "loop": "",
+    "chatCommand": "kiss",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "元気?",
+    "loop": "",
+    "chatCommand": "howareyou",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "指を指す",
+    "loop": "",
+    "chatCommand": "you",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "応援",
+    "loop": "",
+    "chatCommand": "yell",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "気合を入れる",
+    "loop": "",
+    "chatCommand": "guts",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "大笑い",
+    "loop": "",
+    "chatCommand": "laugh",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "拍手",
+    "loop": "",
+    "chatCommand": "clap",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "座る1",
+    "loop": true,
+    "chatCommand": "sit1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "座る2",
+    "loop": true,
+    "chatCommand": "sit2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "ポーズ1",
+    "loop": "",
+    "chatCommand": "pose1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "ポーズ2",
+    "loop": "",
+    "chatCommand": "pose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "ダンス1",
+    "loop": true,
+    "chatCommand": "dance1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "ダンス2",
+    "loop": true,
+    "chatCommand": "dance2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "ダークブラスト",
+    "loop": "",
+    "chatCommand": "darkblast",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "ダークブラスト2",
+    "loop": "",
+    "chatCommand": "darkblast2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "ダークブラスト3",
+    "loop": "",
+    "chatCommand": "darkblast3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "ダークブラスト4",
+    "loop": "",
+    "chatCommand": "darkblast4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "フォトンチェア深緑",
+    "loop": true,
+    "chatCommand": "chair_viridia",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "フォトンチェア緑",
+    "loop": true,
+    "chatCommand": "chair_greennil",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "フォトンチェア水",
+    "loop": true,
+    "chatCommand": "chair_skyly",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "フォトンチェア青",
+    "loop": true,
+    "chatCommand": "chair_bluefull",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "フォトンチェア紫",
+    "loop": true,
+    "chatCommand": "chair_purplenum",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "フォトンチェア桃",
+    "loop": true,
+    "chatCommand": "chair_pinkal",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "フォトンチェア赤",
+    "loop": true,
+    "chatCommand": "chair_redria",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "フォトンチェア橙",
+    "loop": true,
+    "chatCommand": "chair_oran",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "フォトンチェア黄",
+    "loop": true,
+    "chatCommand": "chair_yellowboze",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "フォトンチェア白",
+    "loop": true,
+    "chatCommand": "chair_whitill",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "フォトンチェア黒",
+    "loop": true,
+    "chatCommand": "chair_blackfull",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "フォトンチェア金",
+    "loop": true,
+    "chatCommand": "chair_goldnum",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "フォトンチェア・ラッピー",
+    "loop": true,
+    "chatCommand": "chair_rappy",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "01「任せろ！」",
+    "loop": "",
+    "chatCommand": "liveit",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "02「イヤイヤ」",
+    "loop": "",
+    "chatCommand": "deny",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "03「不調」",
+    "loop": "",
+    "chatCommand": "tired",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "04「喜ぶ」",
+    "loop": "",
+    "chatCommand": "happy",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "05「怒る」",
+    "loop": "",
+    "chatCommand": "angry",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "06「悲しい」",
+    "loop": "",
+    "chatCommand": "sad",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "07「ウキウキ」",
+    "loop": "",
+    "chatCommand": "fun",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "08「呆れる」",
+    "loop": "",
+    "chatCommand": "disgust",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "09「悩む」",
+    "loop": "",
+    "chatCommand": "worry",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "10「照れる」",
+    "loop": "",
+    "chatCommand": "shy",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "11「驚き」",
+    "loop": "",
+    "chatCommand": "surprise",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "12「地団駄」",
+    "loop": "",
+    "chatCommand": "frustrated",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "13「泣く」",
+    "loop": "",
+    "chatCommand": "cry",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "14「ボール」",
+    "loop": "",
+    "chatCommand": "ball",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "15「覗く」",
+    "loop": "",
+    "chatCommand": "peep",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "16「ベッド1」",
+    "loop": true,
+    "chatCommand": "bed1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "17「ベッド2」",
+    "loop": true,
+    "chatCommand": "bed2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "18「セクシー」",
+    "loop": "",
+    "chatCommand": "sexy",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "19「酔っ払い」",
+    "loop": "",
+    "chatCommand": "drunk",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "20「ポーズ3」",
+    "loop": "",
+    "chatCommand": "pose3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "21「ポーズ4」",
+    "loop": "",
+    "chatCommand": "pose4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "22「ポーズ5」",
+    "loop": "",
+    "chatCommand": "pose5",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "23「背中自慢」",
+    "loop": "",
+    "chatCommand": "proudback",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "24「腕自慢」",
+    "loop": "",
+    "chatCommand": "proudarm",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "25「脚自慢」",
+    "loop": "",
+    "chatCommand": "proudleg",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "26「ダンス3」",
+    "loop": true,
+    "chatCommand": "dance3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "27「ダンス4」",
+    "loop": true,
+    "chatCommand": "dance4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "28「ダンス5」",
+    "loop": true,
+    "chatCommand": "dance5",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "29「唄う」",
+    "loop": true,
+    "chatCommand": "sing",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "30「グッジョブ」",
+    "loop": "",
+    "chatCommand": "gj",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "31「たまらん！」",
+    "loop": "",
+    "chatCommand": "pleasure",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "32「スペチャン5ダンス」",
+    "loop": "",
+    "chatCommand": "sc5dance",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "33「苦しい」",
+    "loop": true,
+    "chatCommand": "pains",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "34「スペチャン5うらら」",
+    "loop": true,
+    "chatCommand": "sc5ulala",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "35「掲げる」",
+    "loop": "",
+    "chatCommand": "flag",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "36「ポーズ6」",
+    "loop": "",
+    "chatCommand": "pose6",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "37「座る3」",
+    "loop": true,
+    "chatCommand": "sit3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "38「ダンス6」",
+    "loop": true,
+    "chatCommand": "dance6",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "39「ライトを振る1」",
+    "loop": true,
+    "chatCommand": "clight1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "40「ライトを振る2」",
+    "loop": true,
+    "chatCommand": "clight2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "41「ライトを振る3」",
+    "loop": true,
+    "chatCommand": "clight3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "42「ダンス7」",
+    "loop": true,
+    "chatCommand": "dance7",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "43「ダンス8」",
+    "loop": true,
+    "chatCommand": "dance8",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "44「ポーズ7」",
+    "loop": "",
+    "chatCommand": "pose7",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "45「ポーズ8」",
+    "loop": "",
+    "chatCommand": "pose8",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "46「○ or ×」",
+    "loop": "",
+    "chatCommand": "yesorno",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "47「カメラを構える」",
+    "loop": "",
+    "chatCommand": "cam",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "48「背伸び」",
+    "loop": "",
+    "chatCommand": "hima",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "49「アピール」",
+    "loop": "",
+    "chatCommand": "appeal",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "50「バーチャロン」",
+    "loop": "△",
+    "chatCommand": "virtualon",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "52「水をかける」",
+    "loop": "",
+    "chatCommand": "splash1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "53「水をかけられる」",
+    "loop": "",
+    "chatCommand": "splash2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "54「ダンス9」",
+    "loop": true,
+    "chatCommand": "dance9",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "55「行くぞ！」",
+    "loop": "",
+    "chatCommand": "go",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "56「暑い」",
+    "loop": "",
+    "chatCommand": "hot",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "57「ダンス10」",
+    "loop": true,
+    "chatCommand": "dance10",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "58「モジモジ」",
+    "loop": "",
+    "chatCommand": "shy2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "59「ダンス11」",
+    "loop": true,
+    "chatCommand": "dance11",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "60「ダンス12」",
+    "loop": true,
+    "chatCommand": "dance12",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "61「腕を組む」",
+    "loop": "",
+    "chatCommand": "foldarms",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "62「やっほー」",
+    "loop": "",
+    "chatCommand": "hello",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "63「アニマル」",
+    "loop": "",
+    "chatCommand": "animal",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "64「準備運動」",
+    "loop": "",
+    "chatCommand": "warmingup1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "65「ボクシング」",
+    "loop": "",
+    "chatCommand": "warmingup2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "66「待機中」",
+    "loop": true,
+    "chatCommand": "waiting",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "67「キック」",
+    "loop": "",
+    "chatCommand": "kick",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "68「乱打」",
+    "loop": "",
+    "chatCommand": "rush",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "69「ダンス13」",
+    "loop": true,
+    "chatCommand": "dance13",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "70「ダンス14」",
+    "loop": true,
+    "chatCommand": "dance14",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "71「モデル1」",
+    "loop": "",
+    "chatCommand": "model1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "72「モデル2」",
+    "loop": "",
+    "chatCommand": "model2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "73「ワザ」",
+    "loop": "",
+    "chatCommand": "waza",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "74「エネミー1」",
+    "loop": "",
+    "chatCommand": "enemy1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "75「ダンス15」",
+    "loop": true,
+    "chatCommand": "dance15",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "76「ダンス16」",
+    "loop": true,
+    "chatCommand": "dance16",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "77「お参り」",
+    "loop": "",
+    "chatCommand": "omairi",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "78「漫才」",
+    "loop": "",
+    "chatCommand": "manzai",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "79「プレゼント」",
+    "loop": "",
+    "chatCommand": "present",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "80「ダンス17」",
+    "loop": true,
+    "chatCommand": "dance17",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "81「からかう」",
+    "loop": "",
+    "chatCommand": "jest",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "82「ポーズ9」",
+    "loop": "",
+    "chatCommand": "pose9",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "83「ダンス18」",
+    "loop": true,
+    "chatCommand": "dance18",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "84「モデル歩き」",
+    "loop": "",
+    "chatCommand": "modelwalk",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "85「首をかしげる」",
+    "loop": "",
+    "chatCommand": "what",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "86「落ち込む」",
+    "loop": true,
+    "chatCommand": "orz",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "87「挨拶2」",
+    "loop": "",
+    "chatCommand": "greet2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "88「応援2」",
+    "loop": "",
+    "chatCommand": "yell2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "89「呪い」",
+    "loop": "",
+    "chatCommand": "curse",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "90「ポーズ10」",
+    "loop": "",
+    "chatCommand": "pose10",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "91「よりかかる」",
+    "loop": true,
+    "chatCommand": "lean",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "92「敬礼2」",
+    "loop": "",
+    "chatCommand": "salute2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "93「ダンス19」",
+    "loop": true,
+    "chatCommand": "dance19",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "94「イチタロー」",
+    "loop": "",
+    "chatCommand": "ichitaro",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "95「モモーイ」",
+    "loop": true,
+    "chatCommand": "momoi",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "96「エノモト」",
+    "loop": "",
+    "chatCommand": "enomoto",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "97「人文字P」",
+    "loop": "",
+    "chatCommand": "symbolP",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "98「人文字S」",
+    "loop": "",
+    "chatCommand": "symbolS",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "99「人文字O」",
+    "loop": "",
+    "chatCommand": "symbolO",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "100「人文字2」",
+    "loop": "",
+    "chatCommand": "symbol2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "101「バク転」",
+    "loop": true,
+    "chatCommand": "backflip",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "102「訴えかける」",
+    "loop": "",
+    "chatCommand": "resort",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "103「側転」",
+    "loop": true,
+    "chatCommand": "cartwheel",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "104「マイクパフォーマンス」",
+    "loop": "",
+    "chatCommand": "mc",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "105「ヘッドバンギング」",
+    "loop": true,
+    "chatCommand": "headbanging",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "106「手を振る2」",
+    "loop": "",
+    "chatCommand": "wave2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "107「礼2」",
+    "loop": "",
+    "chatCommand": "bow2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "108「スクワット」",
+    "loop": true,
+    "chatCommand": "squat",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "109「乾杯」",
+    "loop": "",
+    "chatCommand": "cheers",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "110「ダンス20」",
+    "loop": true,
+    "chatCommand": "dance20",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "111「ダンス21」",
+    "loop": true,
+    "chatCommand": "dance21",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "113「イチタロー2」",
+    "loop": true,
+    "chatCommand": "ichitaro2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "114「イチタロー3」",
+    "loop": true,
+    "chatCommand": "ichitaro3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "115「エノモト2」",
+    "loop": true,
+    "chatCommand": "enomoto2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "116「エノモト3」",
+    "loop": true,
+    "chatCommand": "enomoto3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "117「花火」",
+    "loop": "",
+    "chatCommand": "fireworks",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "118「会話中」",
+    "loop": true,
+    "chatCommand": "talking",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "119「ポーズ11」",
+    "loop": "",
+    "chatCommand": "pose11",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "120「万歳」",
+    "loop": "",
+    "chatCommand": "banzai",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "121「優勝」",
+    "loop": "",
+    "chatCommand": "winner",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "122「ダンス22」",
+    "loop": true,
+    "chatCommand": "dance22",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "123「エア野球」",
+    "loop": "",
+    "chatCommand": "baseball",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "124「ダンス23」",
+    "loop": true,
+    "chatCommand": "dance23",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "125「釣り」",
+    "loop": "",
+    "chatCommand": "fishing",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "126「ヨッパライ」",
+    "loop": "",
+    "chatCommand": "yopparai",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "127「イチタロー4」",
+    "loop": "△",
+    "chatCommand": "ichitaro4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "128「エノモト4」",
+    "loop": "",
+    "chatCommand": "enomoto4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "129「ポーズ12」",
+    "loop": "",
+    "chatCommand": "pose12",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "130「端末操作」",
+    "loop": true,
+    "chatCommand": "console",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "131「期待する」",
+    "loop": "",
+    "chatCommand": "wish",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "132「大喜び」",
+    "loop": "",
+    "chatCommand": "joy",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "133「ダンス24」",
+    "loop": true,
+    "chatCommand": "dance24",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "134「ダンス25」",
+    "loop": true,
+    "chatCommand": "dance25",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "135「ダンス26」",
+    "loop": true,
+    "chatCommand": "dance26",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "136「エアギター」",
+    "loop": true,
+    "chatCommand": "guitar",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "137「ダンス27」",
+    "loop": true,
+    "chatCommand": "dance27",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "138「前ならえ」",
+    "loop": "",
+    "chatCommand": "line",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "139「ポーズ13」",
+    "loop": "",
+    "chatCommand": "pose13",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "140「ホラー」",
+    "loop": true,
+    "chatCommand": "horror",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "141「お菓子ちょうだい」",
+    "loop": "",
+    "chatCommand": "halloween",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "142「ダンス28」",
+    "loop": true,
+    "chatCommand": "dance28",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "143「吹っ飛ぶ」",
+    "loop": "",
+    "chatCommand": "crash",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "144「クラッカー」",
+    "loop": "",
+    "chatCommand": "cracker",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "145「ダンス29」",
+    "loop": true,
+    "chatCommand": "dance29",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "146「ポーズ14」",
+    "loop": "",
+    "chatCommand": "pose14",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "147「ダンス30」",
+    "loop": true,
+    "chatCommand": "dance30",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "148「寒がる」",
+    "loop": "",
+    "chatCommand": "cold",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "149「アッカリーン」",
+    "loop": true,
+    "chatCommand": "yuruyuri",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "150「ボード赤・青」",
+    "loop": true,
+    "chatCommand": "boardRB",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "151「ボード緑・黄」",
+    "loop": true,
+    "chatCommand": "boardGY",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "152「ボード白・黒」",
+    "loop": true,
+    "chatCommand": "boardWB",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "153「ダンス31」",
+    "loop": true,
+    "chatCommand": "dance31",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "154「ダンス32」",
+    "loop": true,
+    "chatCommand": "dance32",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "155「ポーズ15」",
+    "loop": "",
+    "chatCommand": "pose15",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "156「温まる」",
+    "loop": true,
+    "chatCommand": "warm",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "157「和服待機」",
+    "loop": true,
+    "chatCommand": "taiki1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "158「咎人ポーズ」",
+    "loop": true,
+    "chatCommand": "FWpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "159「雪合戦」",
+    "loop": "",
+    "chatCommand": "snow",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "160「側宙」",
+    "loop": true,
+    "chatCommand": "sideflip",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "161「エイエイオー！」",
+    "loop": "",
+    "chatCommand": "eieio",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "162「キック2」",
+    "loop": "",
+    "chatCommand": "kick2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "163「ポーズ16」",
+    "loop": "",
+    "chatCommand": "pose16",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "164「ダンス33」",
+    "loop": true,
+    "chatCommand": "dance33",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "165「構える1」",
+    "loop": true,
+    "chatCommand": "fightpose1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "166「構える2」",
+    "loop": true,
+    "chatCommand": "fightpose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "167「Sジャンプ」",
+    "loop": "",
+    "chatCommand": "Sjump",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "168「人文字０(ゼロ)」",
+    "loop": "",
+    "chatCommand": "symbol0",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "169「人文字1」",
+    "loop": "",
+    "chatCommand": "symbol1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "170「人文字3」",
+    "loop": "",
+    "chatCommand": "symbol3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "171「人文字4」",
+    "loop": "",
+    "chatCommand": "symbol4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "172「人文字5」",
+    "loop": "",
+    "chatCommand": "symbol5",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "173「人文字6」",
+    "loop": "",
+    "chatCommand": "symbol6",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "174「人文字7」",
+    "loop": "",
+    "chatCommand": "symbol7",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "175「人文字8」",
+    "loop": "",
+    "chatCommand": "symbol8",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "176「人文字9」",
+    "loop": "",
+    "chatCommand": "symbol9",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "177「シャボン玉」",
+    "loop": "",
+    "chatCommand": "bubble",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "178「エネミー2」",
+    "loop": "△",
+    "chatCommand": "enemy2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "179「エア傘」",
+    "loop": "",
+    "chatCommand": "umbrella1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "180「リアル傘」",
+    "loop": "",
+    "chatCommand": "umbrella2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "181「ダンス34」",
+    "loop": true,
+    "chatCommand": "dance34",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "182「シンガー」",
+    "loop": true,
+    "chatCommand": "singer",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "183「食べる」",
+    "loop": "",
+    "chatCommand": "eat",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "184「ポーズ17」",
+    "loop": "",
+    "chatCommand": "pose17",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "185「ダンス35」",
+    "loop": true,
+    "chatCommand": "dance35",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "186「怯える」",
+    "loop": true,
+    "chatCommand": "fear",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "187「掃除」",
+    "loop": "△",
+    "chatCommand": "clean",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "188「バーチャロン2」",
+    "loop": "△",
+    "chatCommand": "virtualon2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "189「扇ぐ1」",
+    "loop": true,
+    "chatCommand": "fan1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "190「ビーチバレー」",
+    "loop": "",
+    "chatCommand": "volley",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "191「ポーズ18」",
+    "loop": "",
+    "chatCommand": "pose18",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "192「しゃがむ」",
+    "loop": true,
+    "chatCommand": "crouch",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "193「花火2」",
+    "loop": "",
+    "chatCommand": "fireworks2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "194「ARKSダンス」",
+    "loop": true,
+    "chatCommand": "ARKSdance",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "195「ぐるぐる」",
+    "loop": true,
+    "chatCommand": "guruguru",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "196「扇ぐ2」",
+    "loop": true,
+    "chatCommand": "fan2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "197「ポーズ19」",
+    "loop": "",
+    "chatCommand": "pose19",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "198「ふらふら歩き」",
+    "loop": true,
+    "chatCommand": "furafura",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "199「体操」",
+    "loop": true,
+    "chatCommand": "strech",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "200「フリーキック」",
+    "loop": "",
+    "chatCommand": "freekick",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "201「ダンス36」",
+    "loop": true,
+    "chatCommand": "dance36",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "202「ポーズ20」",
+    "loop": "",
+    "chatCommand": "pose20",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "203「浮遊」",
+    "loop": true,
+    "chatCommand": "float",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "204「ピョンピョン」",
+    "loop": true,
+    "chatCommand": "hopping",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "205「座る4」",
+    "loop": true,
+    "chatCommand": "sit4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "206「ダンス37」",
+    "loop": true,
+    "chatCommand": "dance37",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "207「ポーズ21」",
+    "loop": "",
+    "chatCommand": "pose21",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "208「ARKSポーズ」",
+    "loop": "",
+    "chatCommand": "ARKSpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "209「壁ドン」",
+    "loop": true,
+    "chatCommand": "lean2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "210「驚き2」",
+    "loop": "",
+    "chatCommand": "surprise2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "211「反復横跳び」",
+    "loop": true,
+    "chatCommand": "sidestep",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "212「手品」",
+    "loop": "",
+    "chatCommand": "magichat",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "213「ポーズ22」",
+    "loop": "",
+    "chatCommand": "pose22",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "214「雪合戦2」",
+    "loop": true,
+    "chatCommand": "snow2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "215「見渡す」",
+    "loop": true,
+    "chatCommand": "lookout",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "216「S土下座」",
+    "loop": "",
+    "chatCommand": "Sdogeza",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "217「礼3」",
+    "loop": "",
+    "chatCommand": "bow3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "218「ゼリー飲料を飲む」",
+    "loop": "",
+    "chatCommand": "jelly",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "219「卒業ポーズ」",
+    "loop": true,
+    "chatCommand": "graduate",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "220「花びら」",
+    "loop": true,
+    "chatCommand": "petal",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "221「グラビアポーズ」",
+    "loop": "",
+    "chatCommand": "gravure",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "222「ゆあタソ」",
+    "loop": "",
+    "chatCommand": "yuataso",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "223「あいりん」",
+    "loop": "",
+    "chatCommand": "airin",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "224「やったー」",
+    "loop": "",
+    "chatCommand": "yatta",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "225「プレゼントボックス」",
+    "loop": true,
+    "chatCommand": "presentbox",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "226「ブランコ」",
+    "loop": true,
+    "chatCommand": "swing",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "227「とぶ」",
+    "loop": "△",
+    "chatCommand": "fly",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "228「エア居合」",
+    "loop": "",
+    "chatCommand": "airiai",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "229「ネコポーズ」",
+    "loop": "",
+    "chatCommand": "nekopose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "230「カンチョー」",
+    "loop": "",
+    "chatCommand": "kancho",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "231「バキューン」",
+    "loop": "",
+    "chatCommand": "bang",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "232「グラビアポーズ2」",
+    "loop": "",
+    "chatCommand": "gravure2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "233「ユニークステップ」",
+    "loop": true,
+    "chatCommand": "uniquestep",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "234「嫌がる」",
+    "loop": true,
+    "chatCommand": "dislike",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "235「出撃」",
+    "loop": true,
+    "chatCommand": "sortie",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "236「覚醒」",
+    "loop": "",
+    "chatCommand": "trance",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "237「花束」",
+    "loop": "",
+    "chatCommand": "bouquet",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "238「回る」",
+    "loop": true,
+    "chatCommand": "turn",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "239「ボクシング2」",
+    "loop": true,
+    "chatCommand": "boxing2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "240「ヒューランダンス」",
+    "loop": true,
+    "chatCommand": "Hyurandance",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "241「ミコッテダンス」",
+    "loop": true,
+    "chatCommand": "Miqo'tedance",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "242「腰掛ける」",
+    "loop": true,
+    "chatCommand": "sitdown",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "243「スイカ割り」",
+    "loop": "",
+    "chatCommand": "watermelon",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "244「ファイアーダンス」",
+    "loop": true,
+    "chatCommand": "firedance",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "245「気怠い」",
+    "loop": true,
+    "chatCommand": "languid",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "246「エアボード」",
+    "loop": true,
+    "chatCommand": "airboard",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "247「ハグ」",
+    "loop": "",
+    "chatCommand": "hug",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "248「揺れる」",
+    "loop": true,
+    "chatCommand": "shake",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "249「ポーズ23」",
+    "loop": "",
+    "chatCommand": "pose23",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "250「じゃんけん」",
+    "loop": "",
+    "chatCommand": "janken",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "251「一丁締め」",
+    "loop": "",
+    "chatCommand": "icchou",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "252「ひらめく」",
+    "loop": "",
+    "chatCommand": "flash",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "253「カメラを構える2」",
+    "loop": true,
+    "chatCommand": "cam2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "254「Voパフォーマンス」",
+    "loop": true,
+    "chatCommand": "VoPerformance",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "255「ラッピーズ」",
+    "loop": true,
+    "chatCommand": "rappy's",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "256「声援1」",
+    "loop": true,
+    "chatCommand": "cheer1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "257「声援2」",
+    "loop": true,
+    "chatCommand": "cheer2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "258「ほおづえ」",
+    "loop": true,
+    "chatCommand": "hodue",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "259「品がある挨拶」",
+    "loop": true,
+    "chatCommand": "greeting",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "260「ダンス38」",
+    "loop": true,
+    "chatCommand": "dance38",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "261「組体操」",
+    "loop": true,
+    "chatCommand": "Gformation",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "262「たゆたう」",
+    "loop": true,
+    "chatCommand": "drift",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "263「拗ねる」",
+    "loop": "",
+    "chatCommand": "sulk",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "264「ポーズ24」",
+    "loop": true,
+    "chatCommand": "pose24",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "265「看板もち」",
+    "loop": true,
+    "chatCommand": "signboard",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "266「ヴィヴィアンダッシュ」",
+    "loop": true,
+    "chatCommand": "vivian",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "267「料理する」",
+    "loop": true,
+    "chatCommand": "cooking",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "268「飛行形態」",
+    "loop": true,
+    "chatCommand": "flightform",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "269「どこでもお茶会」",
+    "loop": true,
+    "chatCommand": "teatime",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "270「ファミ通を読む」",
+    "loop": true,
+    "chatCommand": "famitu",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "271「重力操作」",
+    "loop": "",
+    "chatCommand": "gravitydaze",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "272「エミリアポーズ」",
+    "loop": "△",
+    "chatCommand": "emilia",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "273「端末操作2」",
+    "loop": true,
+    "chatCommand": "console2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "274「手招く」",
+    "loop": "",
+    "chatCommand": "beckon",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "275「雪遊び」",
+    "loop": true,
+    "chatCommand": "snowplay",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "276「PRポーズ」",
+    "loop": true,
+    "chatCommand": "PRpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "277「ダンス39」",
+    "loop": true,
+    "chatCommand": "dance39",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "278「ペルソナ5」",
+    "loop": "",
+    "chatCommand": "persona5",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "279「撫でる」",
+    "loop": "",
+    "chatCommand": "stroke",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "280「Voパフォーマンス2」",
+    "loop": true,
+    "chatCommand": "VoPerformance2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "281「ダンス40」",
+    "loop": true,
+    "chatCommand": "dance40",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "282「円陣」",
+    "loop": "",
+    "chatCommand": "circle",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "283「ダンス41」",
+    "loop": true,
+    "chatCommand": "dance41",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "284「ダンス42」",
+    "loop": true,
+    "chatCommand": "dance42",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "285「聞き返す」",
+    "loop": "",
+    "chatCommand": "pardon",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "286「紙飛行機」",
+    "loop": "",
+    "chatCommand": "papercraft",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "287「ダンス43」",
+    "loop": true,
+    "chatCommand": "dance43",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "288「たらい」",
+    "loop": "",
+    "chatCommand": "tub",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "289「ダンス44」",
+    "loop": true,
+    "chatCommand": "dance44",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "290「銃を構える」",
+    "loop": true,
+    "chatCommand": "brace",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "291「茶化す」",
+    "loop": "",
+    "chatCommand": "mock",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "292「立ち乗り二輪車」",
+    "loop": true,
+    "chatCommand": "standvehicle",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "293「どこでもお茶屋」",
+    "loop": true,
+    "chatCommand": "ippuku",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "294「待機中2」",
+    "loop": true,
+    "chatCommand": "waiting2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "295「組手」",
+    "loop": true,
+    "chatCommand": "kumite",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "296「スライド移動」",
+    "loop": true,
+    "chatCommand": "slide",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "297「ウィナーダンス」",
+    "loop": true,
+    "chatCommand": "winnerdance",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "298「オートマタ」",
+    "loop": "",
+    "chatCommand": "automata",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "299「水やり」",
+    "loop": true,
+    "chatCommand": "watering",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "300「待機中3」",
+    "loop": true,
+    "chatCommand": "waiting3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "301「四足移動」",
+    "loop": true,
+    "chatCommand": "quadruped",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "302「ダンス45」",
+    "loop": true,
+    "chatCommand": "dance45",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "303「猫をじゃらす」",
+    "loop": true,
+    "chatCommand": "playwithcat",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "304「テイスティ」",
+    "loop": "",
+    "chatCommand": "tasty",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "305「【敗者】ポーズ」",
+    "loop": true,
+    "chatCommand": "loserpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "306「Voパフォーマンス3」",
+    "loop": true,
+    "chatCommand": "VoPerformance3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "307「歌舞伎」",
+    "loop": "",
+    "chatCommand": "kabuki",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "308「スキー」",
+    "loop": true,
+    "chatCommand": "ski",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "309「しゃちほこ」",
+    "loop": "",
+    "chatCommand": "shachihoko",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "310「ハギト・フェムト」",
+    "loop": true,
+    "chatCommand": "hagito",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "311「フライングベース」",
+    "loop": true,
+    "chatCommand": "flyingbase",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "312「見上げる」",
+    "loop": true,
+    "chatCommand": "lookup",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "313「マザー・クラスタ1」",
+    "loop": "",
+    "chatCommand": "mothercluster1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "314「マザー・クラスタ2」",
+    "loop": "",
+    "chatCommand": "mothercluster2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "315「マザー・クラスタ3」",
+    "loop": "",
+    "chatCommand": "mothercluster3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "316「修理する」",
+    "loop": true,
+    "chatCommand": "repair",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "317「ARKSダンス2」",
+    "loop": true,
+    "chatCommand": "ARKSdance2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "318「泳ぐ」",
+    "loop": true,
+    "chatCommand": "swimming",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "319「サーフィン」",
+    "loop": true,
+    "chatCommand": "surfing",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "320「どんたく」",
+    "loop": true,
+    "chatCommand": "dontaku",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "321「こなもん」",
+    "loop": true,
+    "chatCommand": "konamon",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "322「ヒツギポーズ」",
+    "loop": "",
+    "chatCommand": "hitsugipose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "323「ラッピーバルーン」",
+    "loop": true,
+    "chatCommand": "rappyballoon",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "324「勝利ポーズ1」",
+    "loop": "",
+    "chatCommand": "winnerpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "325「吹き飛ばす」",
+    "loop": "",
+    "chatCommand": "blowoff",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "326「ヒーローポーズ」",
+    "loop": true,
+    "chatCommand": "heropose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "327「心霊」",
+    "loop": "",
+    "chatCommand": "ghost",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "328「アイスを食べる」",
+    "loop": true,
+    "chatCommand": "icecream",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "329「クーナポーズ」",
+    "loop": true,
+    "chatCommand": "qunapose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "330「Voパフォーマンス4」",
+    "loop": true,
+    "chatCommand": "VoPerformance4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "331「ポールダンス」",
+    "loop": true,
+    "chatCommand": "polldance",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "332「カメラアピール」",
+    "loop": true,
+    "chatCommand": "cameraappeal",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "333「ピザーラ」",
+    "loop": true,
+    "chatCommand": "pizza-la",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "334「プール遊び」",
+    "loop": true,
+    "chatCommand": "pool",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "335「ミサイル」",
+    "loop": "",
+    "chatCommand": "missile",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "336「ダンス46」",
+    "loop": true,
+    "chatCommand": "dance46",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "337「かさかさ」",
+    "loop": true,
+    "chatCommand": "kasakasa",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "338「手をつなぐ」",
+    "loop": true,
+    "chatCommand": "reachingout",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "339「吊るされる」",
+    "loop": true,
+    "chatCommand": "hang",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "340「雑巾がけ」",
+    "loop": true,
+    "chatCommand": "wiping",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "341「落とし穴」",
+    "loop": "",
+    "chatCommand": "pitfall",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "342「パンプキン」",
+    "loop": true,
+    "chatCommand": "pumpkin",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "343「交通整理」",
+    "loop": true,
+    "chatCommand": "trafficcontrol",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "344「瞬間移動」",
+    "loop": true,
+    "chatCommand": "warp",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "345「剣を構える」",
+    "loop": "",
+    "chatCommand": "swordpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "346「アトリエ」",
+    "loop": "△",
+    "chatCommand": "atelier",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "347「槍を構える」",
+    "loop": "",
+    "chatCommand": "spearpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "349「DFワープ」",
+    "loop": "",
+    "chatCommand": "dfwarp",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "350「電撃ポーズ」",
+    "loop": "△",
+    "chatCommand": "dengekipose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "351「ダンス47」",
+    "loop": true,
+    "chatCommand": "dance47",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "352「けんだま」",
+    "loop": "",
+    "chatCommand": "kendama",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "353「待機中4」",
+    "loop": true,
+    "chatCommand": "waiting4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "354「呪い2」",
+    "loop": "",
+    "chatCommand": "curse2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "355「待機中5」",
+    "loop": true,
+    "chatCommand": "waiting5",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "356「勝利ポーズ2」",
+    "loop": "",
+    "chatCommand": "winnerpose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "357「クレイジー」",
+    "loop": true,
+    "chatCommand": "crazy",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "358「ボディビル」",
+    "loop": true,
+    "chatCommand": "bodybuild",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "359「待機中6」",
+    "loop": true,
+    "chatCommand": "waiting6",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "360「マザー・クラスタ4」",
+    "loop": "",
+    "chatCommand": "mothercluster4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "361「マザー・クラスタ5」",
+    "loop": "△",
+    "chatCommand": "mothercluster5",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "362「DOA勝利ポーズ」",
+    "loop": "",
+    "chatCommand": "DOApose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "363「DOAコンボ」",
+    "loop": "",
+    "chatCommand": "DOAcombo",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "366「魔術書を構える」",
+    "loop": "",
+    "chatCommand": "magicbookpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "367「たこあげ」",
+    "loop": true,
+    "chatCommand": "takoage",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "368「バーベキュー」",
+    "loop": true,
+    "chatCommand": "bbq",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "369「ウィナーダンス2」",
+    "loop": true,
+    "chatCommand": "winnerdance2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "370「シエラポーズ」",
+    "loop": true,
+    "chatCommand": "xierapose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "371「ラコニウムソード」",
+    "loop": "",
+    "chatCommand": "laconiumsword",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "372「アリサポーズ」",
+    "loop": true,
+    "chatCommand": "alisapose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "373「ダンス48」",
+    "loop": true,
+    "chatCommand": "dance48",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "374「障子」",
+    "loop": true,
+    "chatCommand": "shoji",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "375「ダンス49」",
+    "loop": true,
+    "chatCommand": "dance49",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "376「ノリノリ」",
+    "loop": true,
+    "chatCommand": "norinori",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "377「狩猟」",
+    "loop": "",
+    "chatCommand": "hunting",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "378「ダンス50」",
+    "loop": true,
+    "chatCommand": "dance50",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "379「ハートを作る」",
+    "loop": "",
+    "chatCommand": "heart",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "380「頭を洗う」",
+    "loop": true,
+    "chatCommand": "headwash",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "381「待機中7」",
+    "loop": true,
+    "chatCommand": "waiting7",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "382「杖を構える」",
+    "loop": "",
+    "chatCommand": "staffpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "383「リズム」",
+    "loop": true,
+    "chatCommand": "rhythm",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "384「武器強化魔法」",
+    "loop": "",
+    "chatCommand": "enchant",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "385「バクダン」",
+    "loop": "",
+    "chatCommand": "bomb",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "386「バーチャロン3」",
+    "loop": "",
+    "chatCommand": "virtualon3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "387「勇者システム起動」",
+    "loop": "",
+    "chatCommand": "yuyuyu",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "388「NOVAポーズ1」",
+    "loop": true,
+    "chatCommand": "psnovapose1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "389「NOVAポーズ2」",
+    "loop": true,
+    "chatCommand": "psnovapose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "390「ダンス51」",
+    "loop": true,
+    "chatCommand": "dance51",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "391「ラッパー」",
+    "loop": true,
+    "chatCommand": "rapper",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "392「PRポーズ2」",
+    "loop": true,
+    "chatCommand": "PRpose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "393「Voパフォーマンス5」",
+    "loop": true,
+    "chatCommand": "VoPerformance5",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "394「VRカードゲーム」",
+    "loop": true,
+    "chatCommand": "VRcardgame",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "395「術をかける」",
+    "loop": "",
+    "chatCommand": "chant",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "396「Re:ゼロ」",
+    "loop": "△",
+    "chatCommand": "rezero",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "397「マロン＆メロン」",
+    "loop": true,
+    "chatCommand": "maromero",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "398「けんけんぱ」",
+    "loop": true,
+    "chatCommand": "hopscotch",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "399「太極拳」",
+    "loop": "",
+    "chatCommand": "taikyokuken",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "400「浮遊移動」",
+    "loop": true,
+    "chatCommand": "floatmove",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "403「魂が抜ける」",
+    "loop": true,
+    "chatCommand": "soullost",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "404「大剣を構える」",
+    "loop": "",
+    "chatCommand": "greatswordpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "405「カウボーイ射撃芸」",
+    "loop": true,
+    "chatCommand": "cowboy",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "406「後光が差す」",
+    "loop": true,
+    "chatCommand": "halo",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "408「ユーイ＆シャク」",
+    "loop": true,
+    "chatCommand": "yuishaku",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "409「アッチ向いてホイ」",
+    "loop": "",
+    "chatCommand": "acchimuite",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "410「ユーイ＆シャク2」",
+    "loop": "",
+    "chatCommand": "yuishaku2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "411「いないいないばぁ」",
+    "loop": true,
+    "chatCommand": "peekaboo",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "412「ハイタッチ」",
+    "loop": "",
+    "chatCommand": "hitouch",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "413「P3Dダンス1」",
+    "loop": true,
+    "chatCommand": "P3Ddance1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "414「P3Dダンス2」",
+    "loop": true,
+    "chatCommand": "P3Ddance2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "415「P3Dダンス3」",
+    "loop": true,
+    "chatCommand": "P3Ddance3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "416「P5Dダンス1」",
+    "loop": true,
+    "chatCommand": "P5Ddance1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "417「P5Dダンス2」",
+    "loop": true,
+    "chatCommand": "P5Ddance2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "418「P5Dダンス3」",
+    "loop": true,
+    "chatCommand": "P5Ddance3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "419「ダンス52」",
+    "loop": true,
+    "chatCommand": "dance52",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "420「編知／乱知」",
+    "loop": true,
+    "chatCommand": "penchiranchi",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "421「ユーイ＆シャク3」",
+    "loop": true,
+    "chatCommand": "yuishaku3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "422「傘をさす」",
+    "loop": true,
+    "chatCommand": "umbrella3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "423「傘ダンス」",
+    "loop": true,
+    "chatCommand": "umbrella4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "424「編知／乱知2」",
+    "loop": true,
+    "chatCommand": "penchiranchi2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "425「BEATLESS」",
+    "loop": true,
+    "chatCommand": "BEATLESS",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "426「ウェディングポーズ」",
+    "loop": true,
+    "chatCommand": "weddingpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "427「バージンロード」",
+    "loop": true,
+    "chatCommand": "virginroad",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "428「酔拳ごっこ」",
+    "loop": true,
+    "chatCommand": "playsuiken",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "429「座る5」",
+    "loop": true,
+    "chatCommand": "sit5",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "430「ダンス53」",
+    "loop": true,
+    "chatCommand": "dance53",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "431「泳ぐ2」",
+    "loop": true,
+    "chatCommand": "swimming2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "432「マリンポーズ」",
+    "loop": true,
+    "chatCommand": "marinepose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "433「Voパフォーマンス6」",
+    "loop": true,
+    "chatCommand": "VoPerformance6",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "434「エルミルポーズ」",
+    "loop": true,
+    "chatCommand": "elmirpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "435「マルガレータポーズ」",
+    "loop": true,
+    "chatCommand": "margaretapose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "436「忍者」",
+    "loop": "",
+    "chatCommand": "ninja",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "437「ランチャーを構える」",
+    "loop": "",
+    "chatCommand": "launcherpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "438「恋やかん」",
+    "loop": "",
+    "chatCommand": "koiyakan",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "439「ブタキムを食べる」",
+    "loop": true,
+    "chatCommand": "butakimu",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "440「フライングベース2」",
+    "loop": true,
+    "chatCommand": "flyingbase2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "441「充電くん」",
+    "loop": true,
+    "chatCommand": "jyudenkun",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "442「ウェポノイドポーズ1」",
+    "loop": true,
+    "chatCommand": "weaponoidpose1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "443「ウェポノイドポーズ2」",
+    "loop": true,
+    "chatCommand": "weaponoidpose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "444「ウェポノイドポーズ3」",
+    "loop": true,
+    "chatCommand": "weaponoidpose3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "445「ウェポノイドポーズ4」",
+    "loop": true,
+    "chatCommand": "weaponoidpose4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "446「武器構え」",
+    "loop": true,
+    "chatCommand": "weaponpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "447「フロー＆フラウポーズ」",
+    "loop": true,
+    "chatCommand": "flowflawpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "448「ツーショット」",
+    "loop": true,
+    "chatCommand": "twoshot",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "449「ぶらさがる」",
+    "loop": true,
+    "chatCommand": "holdon",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "451「すわダンス」",
+    "loop": true,
+    "chatCommand": "suwadance",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "452「チェアダンス」",
+    "loop": true,
+    "chatCommand": "chairdance",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "453「ユリィ／ステラ」",
+    "loop": true,
+    "chatCommand": "yuristella",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "454「マルイポーズ」",
+    "loop": true,
+    "chatCommand": "maruipose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "455「封印と解放」",
+    "loop": true,
+    "chatCommand": "sealandfree",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "456「スイパラポーズ」",
+    "loop": true,
+    "chatCommand": "sweparapose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "459「MHF1」",
+    "loop": "",
+    "chatCommand": "MHF1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "460「MHF2」",
+    "loop": "",
+    "chatCommand": "MHF2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "461「ダンス54」",
+    "loop": true,
+    "chatCommand": "dance54",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "462「ダンス55」",
+    "loop": true,
+    "chatCommand": "dance55",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "463「わさビーフを食べる」",
+    "loop": "",
+    "chatCommand": "WASABEEF",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "464「ペルソナ3」",
+    "loop": "",
+    "chatCommand": "persona3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "465「ペルソナ4」",
+    "loop": "",
+    "chatCommand": "persona4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "466「灯火」",
+    "loop": true,
+    "chatCommand": "light",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "467「テーブルダンス」",
+    "loop": true,
+    "chatCommand": "tabledance",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "468「初代KKポーズ1」",
+    "loop": "",
+    "chatCommand": "KKpose1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "469「初代KKポーズ2」",
+    "loop": "",
+    "chatCommand": "KKpose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "470「ヴォルフ＆アトッサ」",
+    "loop": "",
+    "chatCommand": "wolfatossapose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "471「Voパフォーマンス7」",
+    "loop": true,
+    "chatCommand": "VoPerformance7",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "473「Voパフォーマンス8」",
+    "loop": true,
+    "chatCommand": "VoPerformance8",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "474「Voパフォーマンス9」",
+    "loop": true,
+    "chatCommand": "VoPerformance9",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "475「アルマポーズ」",
+    "loop": true,
+    "chatCommand": "almapose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "476「アルマボール」",
+    "loop": true,
+    "chatCommand": "almaball",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "477「虹ドロ入手」",
+    "loop": true,
+    "chatCommand": "nijidoro",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "478「脚を組む」",
+    "loop": true,
+    "chatCommand": "crosslegs",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "479「すわすわする」",
+    "loop": "",
+    "chatCommand": "suwasuwa",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "480「ダンまち1」",
+    "loop": true,
+    "chatCommand": "danmachi1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "481「ダンまち2」",
+    "loop": "",
+    "chatCommand": "danmachi2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "482「ダン・ボウル」",
+    "loop": true,
+    "chatCommand": "cardboardbox",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "483「バースデー」",
+    "loop": true,
+    "chatCommand": "birthday",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "484「バレンタイン」",
+    "loop": true,
+    "chatCommand": "valentine",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "485「ダンス56」",
+    "loop": true,
+    "chatCommand": "dance56",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "486「ぷそ煮キャラポーズ」",
+    "loop": true,
+    "chatCommand": "psnicharapose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "487「イチカ＆テトラポーズ」",
+    "loop": "△",
+    "chatCommand": "ichikatetrapose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "488「シャオポーズ」",
+    "loop": true,
+    "chatCommand": "xiaopose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "489「湯もみ」",
+    "loop": true,
+    "chatCommand": "yumomi",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "490「樽遊び」",
+    "loop": true,
+    "chatCommand": "taruasobi",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "491「KOF1」",
+    "loop": true,
+    "chatCommand": "KOF1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "492「KOF2」",
+    "loop": "",
+    "chatCommand": "KOF2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "493「KOF3」",
+    "loop": "",
+    "chatCommand": "KOF3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "494「KOF4」",
+    "loop": "",
+    "chatCommand": "KOF4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "495「なのはポーズ」",
+    "loop": true,
+    "chatCommand": "nanohapose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "496「フェイトポーズ」",
+    "loop": true,
+    "chatCommand": "fatepose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "497「はやてポーズ」",
+    "loop": true,
+    "chatCommand": "hayatepose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "498「VVクッション」",
+    "loop": true,
+    "chatCommand": "VVcushion",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "499「座る6」",
+    "loop": true,
+    "chatCommand": "sit6",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "500「ダンス57」",
+    "loop": true,
+    "chatCommand": "dance57",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "501「桜を見る」",
+    "loop": true,
+    "chatCommand": "sakura",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "502「関東名物」",
+    "loop": true,
+    "chatCommand": "kantospecialty",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "503「名古屋名物」",
+    "loop": true,
+    "chatCommand": "nagoyaspecialty",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "504「札幌名物」",
+    "loop": true,
+    "chatCommand": "sapporospecialty",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "505「ファントムポーズ」",
+    "loop": true,
+    "chatCommand": "phantompose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "506「登場」",
+    "loop": "",
+    "chatCommand": "appearance",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "507「斜めポーズ」",
+    "loop": true,
+    "chatCommand": "slopingpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "508「ダダをこねる」",
+    "loop": true,
+    "chatCommand": "fretful",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "509「カタナポーズ」",
+    "loop": true,
+    "chatCommand": "katanapose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "510「このすば1」",
+    "loop": true,
+    "chatCommand": "konosuba1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "511「このすば2」",
+    "loop": "",
+    "chatCommand": "konosuba2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "512「このすば3」",
+    "loop": "",
+    "chatCommand": "konosuba3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "513「福岡名物」",
+    "loop": true,
+    "chatCommand": "fukuokaspecialty",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "514「勝利ポーズ3」",
+    "loop": "",
+    "chatCommand": "winnerpose3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "515「飛行ポーズ」",
+    "loop": true,
+    "chatCommand": "flyingpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "516「気を高める」",
+    "loop": "",
+    "chatCommand": "extendaura",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "517「倒れる演技」",
+    "loop": true,
+    "chatCommand": "downacting",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "518「レギアスポーズ」",
+    "loop": true,
+    "chatCommand": "regiuspose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "519「マリアポーズ」",
+    "loop": true,
+    "chatCommand": "mariapose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "520「ハリエットポーズ」",
+    "loop": true,
+    "chatCommand": "harrietpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "521「Sラコニウムソード」",
+    "loop": "",
+    "chatCommand": "Slaconiumsword",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "522「雨が降る」",
+    "loop": true,
+    "chatCommand": "rain",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "523「Aライフルポーズ」",
+    "loop": true,
+    "chatCommand": "Ariflepose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "524「神戸名物」",
+    "loop": true,
+    "chatCommand": "kobespecialty",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "525「メリーゴーランド」",
+    "loop": true,
+    "chatCommand": "merrygoround",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "526「地団駄2」",
+    "loop": true,
+    "chatCommand": "frustrated2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "527「変身ポーズ1」",
+    "loop": "",
+    "chatCommand": "transformpose1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "528「ハンドベル・ド」",
+    "loop": true,
+    "chatCommand": "bellC",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "529「ハンドベル・レ」",
+    "loop": true,
+    "chatCommand": "bellD",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "530「ハンドベル・ミ」",
+    "loop": true,
+    "chatCommand": "bellE",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "531「ハンドベル・ファ」",
+    "loop": true,
+    "chatCommand": "bellF",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "532「ハンドベル・ソ」",
+    "loop": true,
+    "chatCommand": "bellG",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "533「ハンドベル・ラ」",
+    "loop": true,
+    "chatCommand": "bellA",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "534「ハンドベル・シ」",
+    "loop": true,
+    "chatCommand": "bellB",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "535「Tマシンガンポーズ」",
+    "loop": true,
+    "chatCommand": "Tmgpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "536「ダンス58」",
+    "loop": true,
+    "chatCommand": "dance58",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "537「ローソン看板」",
+    "loop": true,
+    "chatCommand": "LAWSON",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "538「バナナボート」",
+    "loop": true,
+    "chatCommand": "bananaboat",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "539「キック3」",
+    "loop": "",
+    "chatCommand": "kick3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "540「変身ポーズ2」",
+    "loop": "",
+    "chatCommand": "transformpose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "541「ストラトスポーズ」",
+    "loop": true,
+    "chatCommand": "stratospose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "542「ベッド3」",
+    "loop": true,
+    "chatCommand": "bed3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "543「フォトンサークル」",
+    "loop": true,
+    "chatCommand": "photoncircle",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "544「ぷそ煮エンドカード」",
+    "loop": true,
+    "chatCommand": "psniendcard",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "545「膝立ち」",
+    "loop": true,
+    "chatCommand": "kneeling",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "546「プロージット」",
+    "loop": "",
+    "chatCommand": "prosit",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "547「ロッドポーズ」",
+    "loop": true,
+    "chatCommand": "rodpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "548「ウェポノイドポーズ5」",
+    "loop": true,
+    "chatCommand": "weaponoidpose5",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "549「ウェポノイドポーズ6」",
+    "loop": true,
+    "chatCommand": "weaponoidpose6",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "550「ウェポノイドポーズ7」",
+    "loop": true,
+    "chatCommand": "weaponoidpose7",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "551「クーナポーズ2」",
+    "loop": true,
+    "chatCommand": "qunapose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "552「リサポーズ」",
+    "loop": true,
+    "chatCommand": "risapose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "553「ツインダガーポーズ」",
+    "loop": true,
+    "chatCommand": "twindaggerpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "554「腰掛ける2」",
+    "loop": true,
+    "chatCommand": "sitdown2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "555「勝利ポーズ4」",
+    "loop": "",
+    "chatCommand": "winnerpose4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "556「座る7」",
+    "loop": true,
+    "chatCommand": "sit7",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "557「召喚」",
+    "loop": "△",
+    "chatCommand": "summon",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "558「ペリエを飲む」",
+    "loop": true,
+    "chatCommand": "perrier",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "559「全弾発射」",
+    "loop": true,
+    "chatCommand": "fullburst",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "560「サイコロ投げ」",
+    "loop": true,
+    "chatCommand": "diceroll",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "561「マトイポーズ1」",
+    "loop": true,
+    "chatCommand": "matoipose1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "562「マトイポーズ2」",
+    "loop": true,
+    "chatCommand": "matoipose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "563「マトイポーズ3」",
+    "loop": true,
+    "chatCommand": "matoipose3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "564「A.T.フィールド」",
+    "loop": "",
+    "chatCommand": "ATfield",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "565「タリスポーズ」",
+    "loop": true,
+    "chatCommand": "talispose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "566「EPオラクル1」",
+    "loop": true,
+    "chatCommand": "EPoracle1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "567「イドラキャラポーズ1」",
+    "loop": true,
+    "chatCommand": "idolacharapose1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "568「イドラキャラポーズ2」",
+    "loop": true,
+    "chatCommand": "idolacharapose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "569「イドラチャンネル」",
+    "loop": true,
+    "chatCommand": "idolachannel",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "570「ジャスパー／ローザ」",
+    "loop": true,
+    "chatCommand": "jasperrosalinde",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "571「ソードポーズ」",
+    "loop": true,
+    "chatCommand": "longswordpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "572「つんつん」",
+    "loop": "△",
+    "chatCommand": "poke",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "573「スクナヒメポーズ1」",
+    "loop": true,
+    "chatCommand": "sukunahimepose1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "574「スクナヒメポーズ2」",
+    "loop": true,
+    "chatCommand": "sukunahimepose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "575「スクナヒメポーズ3」",
+    "loop": true,
+    "chatCommand": "sukunahimepose3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "576「時間確認」",
+    "loop": true,
+    "chatCommand": "timecheck",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "577「エトワールポーズ」",
+    "loop": true,
+    "chatCommand": "etoilepose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "578「独楽回し」",
+    "loop": true,
+    "chatCommand": "topspin",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "579「おみくじ」",
+    "loop": true,
+    "chatCommand": "fortune",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "580「Dセイバーポーズ」",
+    "loop": true,
+    "chatCommand": "Dsaberpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "581「雪遊び2」",
+    "loop": true,
+    "chatCommand": "snowplay2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "582「ゾンデ／檻」",
+    "loop": true,
+    "chatCommand": "zondecage",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "583「バータ／彫像」",
+    "loop": true,
+    "chatCommand": "bartastatue",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "584「ウォンドポーズ」",
+    "loop": true,
+    "chatCommand": "wandpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "585「雪を見上げる」",
+    "loop": true,
+    "chatCommand": "seesnow",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "586「ファンサ」",
+    "loop": true,
+    "chatCommand": "fanservice",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "587「Dブレードポーズ」",
+    "loop": true,
+    "chatCommand": "Dbladepose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "589「EPオラクル2」",
+    "loop": true,
+    "chatCommand": "EPoracle2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "590「EPオラクル3」",
+    "loop": true,
+    "chatCommand": "EPoracle3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "591「EPオラクル通信」",
+    "loop": true,
+    "chatCommand": "EPoraclecall",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "592「二代目KKポーズ」",
+    "loop": true,
+    "chatCommand": "2ndKKpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "593「三代目KKポーズ」",
+    "loop": true,
+    "chatCommand": "3rdKKpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "594「ゼノポーズ」",
+    "loop": true,
+    "chatCommand": "zenopose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "595「ランチャーポーズ」",
+    "loop": true,
+    "chatCommand": "alauncherpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "596「乗る」",
+    "loop": true,
+    "chatCommand": "riding",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "597「Wランスポーズ」",
+    "loop": true,
+    "chatCommand": "Wlancepose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "598「オフィスチェア」",
+    "loop": true,
+    "chatCommand": "officechair",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "599「フェスティバル」",
+    "loop": true,
+    "chatCommand": "festival",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "602「ソニック／テイルス」",
+    "loop": true,
+    "chatCommand": "sonictails",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "603「抱き枕」",
+    "loop": true,
+    "chatCommand": "bodypillow",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "604「ホルシード＆アフタル」",
+    "loop": true,
+    "chatCommand": "khorshidakhtar",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "605「ジェネポーズ」",
+    "loop": true,
+    "chatCommand": "genepose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "606「EPオラクル4」",
+    "loop": true,
+    "chatCommand": "EPoracle4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "607「時計ポーズ」",
+    "loop": true,
+    "chatCommand": "clockpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "608「ゼクト&みたらし」",
+    "loop": true,
+    "chatCommand": "zekutomitarashi",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "609「Voパフォーマンス10」",
+    "loop": true,
+    "chatCommand": "VoPerformance10",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "610「タクトポーズ」",
+    "loop": true,
+    "chatCommand": "tactpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "611「エッグレース」",
+    "loop": true,
+    "chatCommand": "eggrace",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "612「パルチザンポーズ」",
+    "loop": true,
+    "chatCommand": "partisanpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "613「どこでもピクニック1」",
+    "loop": true,
+    "chatCommand": "picnic1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "614「ナックルポーズ」",
+    "loop": true,
+    "chatCommand": "knucklepose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "615「端末操作3」",
+    "loop": true,
+    "chatCommand": "console3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "616「ダンス59」",
+    "loop": true,
+    "chatCommand": "dance59",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "617「PW×PSO2」",
+    "loop": true,
+    "chatCommand": "PWPSO2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "618「PRポーズ3」",
+    "loop": true,
+    "chatCommand": "PRpose3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "619「EPオラクル5」",
+    "loop": true,
+    "chatCommand": "EPoracle5",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "620「ガンスラッシュポーズ」",
+    "loop": true,
+    "chatCommand": "gunslashpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "622「ティーカップ」",
+    "loop": true,
+    "chatCommand": "teacup",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "623「アスレチック」",
+    "loop": true,
+    "chatCommand": "athletic",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "624「風船ガムで飛ぶ」",
+    "loop": "△",
+    "chatCommand": "chewinggum",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "626「Et＆Ph」",
+    "loop": "",
+    "chatCommand": "EtPh",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "627「新サクラ大戦A」",
+    "loop": true,
+    "chatCommand": "/lasakurawarsA",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "628「新サクラ大戦B」",
+    "loop": true,
+    "chatCommand": "/lasakurawarsB",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "629「Bボウポーズ」",
+    "loop": true,
+    "chatCommand": "Bbowpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "630「スライディング」",
+    "loop": true,
+    "chatCommand": "sliding",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "632「EPオラクル6」",
+    "loop": "",
+    "chatCommand": "EPoracle6",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "634「ジェットブーツポーズ」",
+    "loop": true,
+    "chatCommand": "jetbootspose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "635「線香花火」",
+    "loop": true,
+    "chatCommand": "sparkler",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "637「シバポーズ1」",
+    "loop": true,
+    "chatCommand": "sivapose1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "638「シバポーズ2」",
+    "loop": true,
+    "chatCommand": "sivapose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "639「ヴァルナポーズ」",
+    "loop": true,
+    "chatCommand": "varunapose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "640「ダンス60」",
+    "loop": true,
+    "chatCommand": "dance60",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "641「しゃがむ2」",
+    "loop": true,
+    "chatCommand": "crouch2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "642「大剣／長槍」",
+    "loop": true,
+    "chatCommand": "swordpartisan",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "643「吹っ飛ぶ2」",
+    "loop": "",
+    "chatCommand": "crash2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "644「膝立ち2」",
+    "loop": true,
+    "chatCommand": "kneeling2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "646「カトリポーズ」",
+    "loop": true,
+    "chatCommand": "katoripose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "647「ユクリータポーズ」",
+    "loop": true,
+    "chatCommand": "euclitapose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "648「ラスターポーズ」",
+    "loop": true,
+    "chatCommand": "lusterpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "649「尊ぶ」",
+    "loop": true,
+    "chatCommand": "precious",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "650「ディーバモーション1」",
+    "loop": true,
+    "chatCommand": "divamotion1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "651「ディーバモーション2」",
+    "loop": true,
+    "chatCommand": "divamotion2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "652「ディーバモーション3」",
+    "loop": true,
+    "chatCommand": "divamotion3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "653「長銃／大砲」",
+    "loop": true,
+    "chatCommand": "riflelauncher",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "654「グリッドマン」",
+    "loop": "△",
+    "chatCommand": "GRIDMAN",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "655「ウェポノイドポーズ8」",
+    "loop": true,
+    "chatCommand": "weaponoidpose8",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "656「ウェポノイドポーズ9」",
+    "loop": true,
+    "chatCommand": "weaponoidpose9",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "657「ヒツギポーズ2」",
+    "loop": true,
+    "chatCommand": "hitsugipose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "658「アイカポーズ」",
+    "loop": true,
+    "chatCommand": "aikapose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "659「イツキ／リナポーズ」",
+    "loop": true,
+    "chatCommand": "itsukirinapose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "660「魔術ポーズ1」",
+    "loop": true,
+    "chatCommand": "magicpose1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "661「どこでもピクニック2」",
+    "loop": true,
+    "chatCommand": "picnic2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "662「魔術ポーズ2」",
+    "loop": true,
+    "chatCommand": "magicpose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "663「魔術ポーズ3」",
+    "loop": true,
+    "chatCommand": "magicpose3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "664「登場2」",
+    "loop": "",
+    "chatCommand": "appearance2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "666「長杖／導具」",
+    "loop": true,
+    "chatCommand": "rodtalis",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "667「蜘蛛」",
+    "loop": true,
+    "chatCommand": "spider",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "668「PRポーズ4」",
+    "loop": true,
+    "chatCommand": "PRpose4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "669「時計ポーズ2」",
+    "loop": true,
+    "chatCommand": "clockpose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "670「ソードスキル」",
+    "loop": "",
+    "chatCommand": "swordskill",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "671「箒で飛ぶ」",
+    "loop": true,
+    "chatCommand": "broom",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "672「腕を組む2」",
+    "loop": true,
+    "chatCommand": "foldarms2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "673「ロデオポーズ1」",
+    "loop": true,
+    "chatCommand": "rodeopose1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "674「閃乱カグラ」",
+    "loop": true,
+    "chatCommand": "senrankagura",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "675「双小剣／鋼拳」",
+    "loop": true,
+    "chatCommand": "twindaggerknuckle",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "676「双機銃／銃剣」",
+    "loop": true,
+    "chatCommand": "TMGgunslash",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "677「ＵＦＯキャッチャー®」",
+    "loop": true,
+    "chatCommand": "UFOcatcher",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "678「七輪」",
+    "loop": true,
+    "chatCommand": "shichirin",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "679「ストラトスポーズ2」",
+    "loop": true,
+    "chatCommand": "stratospose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "680「ストラトスポーズ3」",
+    "loop": true,
+    "chatCommand": "stratospose3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "681「キョクヤポーズ1」",
+    "loop": true,
+    "chatCommand": "kyokuyapose1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "682「キョクヤポーズ2」",
+    "loop": true,
+    "chatCommand": "kyokuyapose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "683「ルコットポーズ1」",
+    "loop": true,
+    "chatCommand": "lecotpose1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "684「ルコットポーズ2」",
+    "loop": true,
+    "chatCommand": "lecotpose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "685「ルコットポーズ3」",
+    "loop": true,
+    "chatCommand": "lecotpose3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "686「イドラマトイポーズ」",
+    "loop": true,
+    "chatCommand": "idolamatoipose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "687「なかよしポーズ」",
+    "loop": true,
+    "chatCommand": "chumpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "688「六属性ポーズ・炎氷」",
+    "loop": true,
+    "chatCommand": "fireice",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "689「六属性ポーズ・雷風」",
+    "loop": true,
+    "chatCommand": "lightningwind",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "690「六属性ポーズ・闇光」",
+    "loop": true,
+    "chatCommand": "darklight",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "691「短杖／奏具」",
+    "loop": true,
+    "chatCommand": "wandtact",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "692「おでん」",
+    "loop": true,
+    "chatCommand": "oden",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "693「拳ポーズ」",
+    "loop": true,
+    "chatCommand": "fistpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "694「キャンプ」",
+    "loop": true,
+    "chatCommand": "camping",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "695「怪盗」",
+    "loop": true,
+    "chatCommand": "phantomthief",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "696「餅つき」",
+    "loop": true,
+    "chatCommand": "mochipounding",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "697「モーモーポーズ」",
+    "loop": true,
+    "chatCommand": "cowpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "698「両剣／自在槍」",
+    "loop": true,
+    "chatCommand": "DsaberWlance",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "699「グッドポーズ」",
+    "loop": true,
+    "chatCommand": "goodpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "700「「1」ポーズ」",
+    "loop": true,
+    "chatCommand": "onepose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "701「泡立てる」",
+    "loop": true,
+    "chatCommand": "lather",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "702「説明する」",
+    "loop": true,
+    "chatCommand": "explain",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "703「飛翔剣／魔装脚」",
+    "loop": true,
+    "chatCommand": "DbladeJboots",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "704「くつろぐ1」",
+    "loop": true,
+    "chatCommand": "relax1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "705「くつろぐ2」",
+    "loop": true,
+    "chatCommand": "relax2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "706「小指ポーズ」",
+    "loop": true,
+    "chatCommand": "littlefinger",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "707「抜剣／強弓」",
+    "loop": true,
+    "chatCommand": "katanaBbow",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "709「ハートポーズ」",
+    "loop": true,
+    "chatCommand": "heartpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "710「バキューンポーズ」",
+    "loop": true,
+    "chatCommand": "bangpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "711「ジャンプポーズ」",
+    "loop": true,
+    "chatCommand": "jumppose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "713「「2」ポーズ」",
+    "loop": true,
+    "chatCommand": "twopose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "714「二本指ポーズ」",
+    "loop": true,
+    "chatCommand": "2fingerpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "715「エアクオート」",
+    "loop": true,
+    "chatCommand": "airquotes",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "716「ロックサイン」",
+    "loop": true,
+    "chatCommand": "rocksign",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "717「ディーバモーション4」",
+    "loop": true,
+    "chatCommand": "divamotion4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "719「「3」ポーズ」",
+    "loop": true,
+    "chatCommand": "threepose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "721「ターキー」",
+    "loop": true,
+    "chatCommand": "turkey",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "723「メテオフィストぎゅ。」",
+    "loop": true,
+    "chatCommand": "meteorfistgyu",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "724「PRポーズ5」",
+    "loop": true,
+    "chatCommand": "PRpose5",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "725「【仮面】ポーズ」",
+    "loop": true,
+    "chatCommand": "personapose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "726「ソニック／テイルス2」",
+    "loop": "△",
+    "chatCommand": "sonictails2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "727「極技」",
+    "loop": "",
+    "chatCommand": "heataction",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "728「ロデオポーズ2」",
+    "loop": true,
+    "chatCommand": "rodeopose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "730「Voパフォーマンス11」",
+    "loop": "",
+    "chatCommand": "VoPerformance11",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "731「ヒーローポーズ＋」",
+    "loop": true,
+    "chatCommand": "heropose+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "732「ファントムポーズ＋」",
+    "loop": true,
+    "chatCommand": "phantompose+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "733「Voパフォーマンス12」",
+    "loop": true,
+    "chatCommand": "VoPerformance12",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "734「観覧席」",
+    "loop": true,
+    "chatCommand": "audienceseat",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "701「泡立てる」",
+    "loop": true,
+    "chatCommand": "lather",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "702「説明する」",
+    "loop": true,
+    "chatCommand": "explain",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "703「飛翔剣／魔装脚」",
+    "loop": true,
+    "chatCommand": "DbladeJboots",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "704「くつろぐ1」",
+    "loop": true,
+    "chatCommand": "relax1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "705「くつろぐ2」",
+    "loop": true,
+    "chatCommand": "relax2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "706「小指ポーズ」",
+    "loop": true,
+    "chatCommand": "littlefinger",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "707「抜剣／強弓」",
+    "loop": true,
+    "chatCommand": "katanaBbow",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "709「ハートポーズ」",
+    "loop": true,
+    "chatCommand": "heartpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "710「バキューンポーズ」",
+    "loop": true,
+    "chatCommand": "bangpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "711「ジャンプポーズ」",
+    "loop": true,
+    "chatCommand": "jumppose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "713「「2」ポーズ」",
+    "loop": true,
+    "chatCommand": "twopose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "714「二本指ポーズ」",
+    "loop": true,
+    "chatCommand": "2fingerpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "715「エアクオート」",
+    "loop": true,
+    "chatCommand": "airquotes",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "716「ロックサイン」",
+    "loop": true,
+    "chatCommand": "rocksign",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "717「ディーバモーション4」",
+    "loop": true,
+    "chatCommand": "divamotion4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "719「「3」ポーズ」",
+    "loop": true,
+    "chatCommand": "threepose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "721「ターキー」",
+    "loop": true,
+    "chatCommand": "turkey",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "723「メテオフィストぎゅ。」",
+    "loop": true,
+    "chatCommand": "meteorfistgyu",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "724「PRポーズ5」",
+    "loop": true,
+    "chatCommand": "PRpose5",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "725「【仮面】ポーズ」",
+    "loop": true,
+    "chatCommand": "personapose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "726「ソニック／テイルス2」",
+    "loop": "△",
+    "chatCommand": "sonictails2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "727「極技」",
+    "loop": "",
+    "chatCommand": "heataction",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "728「ロデオポーズ2」",
+    "loop": true,
+    "chatCommand": "rodeopose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "730「Voパフォーマンス11」",
+    "loop": "",
+    "chatCommand": "VoPerformance11",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "731「ヒーローポーズ+」",
+    "loop": true,
+    "chatCommand": "heropose+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "732「ファントムポーズ+」",
+    "loop": true,
+    "chatCommand": "phantompose+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "733「Voパフォーマンス12」",
+    "loop": true,
+    "chatCommand": "VoPerformance12",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "734「観覧席」",
+    "loop": true,
+    "chatCommand": "audienceseat",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "735「「4」ポーズ」",
+    "loop": true,
+    "chatCommand": "fourpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "736「励ます」",
+    "loop": "",
+    "chatCommand": "cheerup",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "737「おじぎ」",
+    "loop": "",
+    "chatCommand": "deepbow",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "738「挨拶2+」",
+    "loop": "",
+    "chatCommand": "greet2+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "739「手のひらを見る」",
+    "loop": "",
+    "chatCommand": "look",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "741「「5」ポーズ」",
+    "loop": true,
+    "chatCommand": "fivepose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "742「らくがき」",
+    "loop": "",
+    "chatCommand": "graffiti",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "743「礼4」",
+    "loop": "",
+    "chatCommand": "bow4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "744「座る8」",
+    "loop": true,
+    "chatCommand": "sit8",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "745「迫りくる恐怖」",
+    "loop": true,
+    "chatCommand": "loomingfear",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "746「Intel」",
+    "loop": true,
+    "chatCommand": "Intel",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "747「しゃがむ3」",
+    "loop": true,
+    "chatCommand": "crouch3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "748「うさぴょん」",
+    "loop": true,
+    "chatCommand": "rabbitdance",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "749「アイスを食べる+」",
+    "loop": true,
+    "chatCommand": "icecream+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "750「アイスを食べる2」",
+    "loop": true,
+    "chatCommand": "icecream2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "751「アイスを食べる3」",
+    "loop": true,
+    "chatCommand": "icecream3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "752「ダンス61」",
+    "loop": true,
+    "chatCommand": "dance61",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "753「パラソル」",
+    "loop": true,
+    "chatCommand": "parasol",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "754「エンジョイサマー」",
+    "loop": true,
+    "chatCommand": "summerpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "755「マッスルポーズ」",
+    "loop": true,
+    "chatCommand": "musclepose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "756「キツネポーズ」",
+    "loop": true,
+    "chatCommand": "foxpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "757「お月見」",
+    "loop": true,
+    "chatCommand": "moonviewing",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "758「ダンス62」",
+    "loop": true,
+    "chatCommand": "dance62",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "759「構図決め」",
+    "loop": true,
+    "chatCommand": "fingerframe",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "760「ブレイバーポーズ」",
+    "loop": true,
+    "chatCommand": "braverpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "761「ソニック／テイルス3」",
+    "loop": true,
+    "chatCommand": "sonictails3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "762「座る9」",
+    "loop": true,
+    "chatCommand": "sit9",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "763「指パッチン」",
+    "loop": "",
+    "chatCommand": "fingersnap",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "764「料理する2」",
+    "loop": "",
+    "chatCommand": "cooking2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "765「頑張るゾ」",
+    "loop": true,
+    "chatCommand": "fireup",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "766「吊るされる2」",
+    "loop": true,
+    "chatCommand": "hang2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "767「この指とまれ」",
+    "loop": "",
+    "chatCommand": "indexpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "768「ダンス63」",
+    "loop": true,
+    "chatCommand": "dance63",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "769「囚われの身」",
+    "loop": true,
+    "chatCommand": "subject",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "770「しゃがむ4」",
+    "loop": true,
+    "chatCommand": "crouch4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "771「焼き芋」",
+    "loop": true,
+    "chatCommand": "sweetpotato",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "772「手に負えない」",
+    "loop": "",
+    "chatCommand": "uncontrollable",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "773「バウンサーポーズ」",
+    "loop": true,
+    "chatCommand": "bouncerpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "774「『NGS』ポーズ」",
+    "loop": true,
+    "chatCommand": "NGSpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "775「NO BORDER.」",
+    "loop": true,
+    "chatCommand": "noborder.",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "776「挑発2」",
+    "loop": true,
+    "chatCommand": "provoke2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "777「赤い糸」",
+    "loop": true,
+    "chatCommand": "meanttobe",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "778「赤い糸2」",
+    "loop": true,
+    "chatCommand": "meanttobe2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "779「ポジショニング」",
+    "loop": "",
+    "chatCommand": "position",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "780「ダンス64」",
+    "loop": true,
+    "chatCommand": "dance64",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "781「寒がる2」",
+    "loop": true,
+    "chatCommand": "cold2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "782「雪遊び3」",
+    "loop": true,
+    "chatCommand": "snowplay3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "783「座る10」",
+    "loop": true,
+    "chatCommand": "sit10",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "784「お雑煮を食べる」",
+    "loop": true,
+    "chatCommand": "/layeardish",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "785「タイガーポーズ」",
+    "loop": "",
+    "chatCommand": "tigerpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "786「忍者2」",
+    "loop": "",
+    "chatCommand": "ninja2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "787「ちゃぶ台」",
+    "loop": true,
+    "chatCommand": "chabudai",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "788「畳」",
+    "loop": true,
+    "chatCommand": "tatami",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "789「アイスホッケー」",
+    "loop": true,
+    "chatCommand": "icehockey",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "790「記念撮影」",
+    "loop": true,
+    "chatCommand": "photograph",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "791「ダンス65」",
+    "loop": true,
+    "chatCommand": "dance65",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "792「ハートポーズ2」",
+    "loop": true,
+    "chatCommand": "heartpose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "793「お茶を注ぐ」",
+    "loop": true,
+    "chatCommand": "pourtea",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "794「ご奉仕/リラックス」",
+    "loop": true,
+    "chatCommand": "servicerelax",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "795「PRポーズ6」",
+    "loop": true,
+    "chatCommand": "PRpose6",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "796「閃光のヤマダポーズ」",
+    "loop": true,
+    "chatCommand": "yamadapose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "797「ナーデレフライブ」",
+    "loop": true,
+    "chatCommand": "naderehlive",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "798「ナーデレフライブ2」",
+    "loop": true,
+    "chatCommand": "naderehlive2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "799「ダンス66」",
+    "loop": true,
+    "chatCommand": "dance66",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "800「空中戦」",
+    "loop": true,
+    "chatCommand": "airbattle",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "801「ハートポーズ3」",
+    "loop": "",
+    "chatCommand": "heartpose3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "802「ダンス67」",
+    "loop": true,
+    "chatCommand": "dance67",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "803「横シューティング」",
+    "loop": true,
+    "chatCommand": "sideviewshooting",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "804「ベッド4」",
+    "loop": true,
+    "chatCommand": "bed4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "805「鳥と戯れる」",
+    "loop": true,
+    "chatCommand": "playwithbird",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "806「鳥と戯れる2」",
+    "loop": true,
+    "chatCommand": "playwithbird2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "807「鳥と戯れる3」",
+    "loop": true,
+    "chatCommand": "playwithbird3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "808「ヒツギポーズ+」",
+    "loop": "",
+    "chatCommand": "hitsugipose+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "809「ナーデレフライブ3」",
+    "loop": true,
+    "chatCommand": "naderehlive3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "810「銃を構える+」",
+    "loop": "",
+    "chatCommand": "brace+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "811「巻物」",
+    "loop": "",
+    "chatCommand": "scroll",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "812「足を乗せる」",
+    "loop": "",
+    "chatCommand": "putyourfeeton",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "813「宙に座る」",
+    "loop": true,
+    "chatCommand": "airchair",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "814「ダンス68」",
+    "loop": true,
+    "chatCommand": "dance68",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "815「巻物2」",
+    "loop": "",
+    "chatCommand": "scroll2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "816「槍を構える+」",
+    "loop": "",
+    "chatCommand": "spearpose+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "817「ボクシング+」",
+    "loop": "",
+    "chatCommand": "warmingup2+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "818「隠れる」",
+    "loop": true,
+    "chatCommand": "hiding",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "819「ダンス69」",
+    "loop": true,
+    "chatCommand": "dance69",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "820「PRポーズ7」",
+    "loop": true,
+    "chatCommand": "PRpose7",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "821「ロールケーキを食べる」",
+    "loop": true,
+    "chatCommand": "eatrollcake",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "822「メイクアップ」",
+    "loop": true,
+    "chatCommand": "makeup",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "823「トリックフォトポーズ」",
+    "loop": true,
+    "chatCommand": "trickphotopose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "824「抱っこ」",
+    "loop": true,
+    "chatCommand": "bridalcarry",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "825「葉っぱ傘」",
+    "loop": true,
+    "chatCommand": "leafumbrella",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "826「葉っぱ傘2」",
+    "loop": true,
+    "chatCommand": "leafumbrella2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "827「星に座る」",
+    "loop": true,
+    "chatCommand": "starseat",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "828「武器の手入れ」",
+    "loop": true,
+    "chatCommand": "weaponmaintenance",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "829「筋トレ」",
+    "loop": true,
+    "chatCommand": "calisthenics",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "830「腹筋」",
+    "loop": true,
+    "chatCommand": "situps",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "831「大剣を構える+」",
+    "loop": "",
+    "chatCommand": "greatswordpose+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "832「じゃんけん+」",
+    "loop": "",
+    "chatCommand": "janken+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "833「ファンサ+」",
+    "loop": true,
+    "chatCommand": "fanservice+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "834「ウェイカーポーズ」",
+    "loop": true,
+    "chatCommand": "wakerpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "835「ビーチチェアに座る」",
+    "loop": true,
+    "chatCommand": "beachchair",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "836「飛び込み」",
+    "loop": true,
+    "chatCommand": "diving",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "837「Lenovo」",
+    "loop": "",
+    "chatCommand": "Lenovo",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "838「蛍の観察」",
+    "loop": true,
+    "chatCommand": "firefly",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "839「火起こし」",
+    "loop": true,
+    "chatCommand": "startafire",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "841「Voパフォーマンス13」",
+    "loop": true,
+    "chatCommand": "VoPerformance13",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "842「東京スカイツリー×NGS」",
+    "loop": true,
+    "chatCommand": "skytree",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "843「メルティブラッド：戦闘開始」",
+    "loop": true,
+    "chatCommand": "MELTYBLOOD",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "844「メルティブラッド：戦闘開始2」",
+    "loop": true,
+    "chatCommand": "MELTYBLOOD2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "845「アルクェイド／シエル」",
+    "loop": true,
+    "chatCommand": "arcueidciel",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "846「遠野志貴／遠野秋葉」",
+    "loop": true,
+    "chatCommand": "shikiakiha",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "848「バーテンダー」",
+    "loop": "",
+    "chatCommand": "bartender",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "849「武器を構える」",
+    "loop": true,
+    "chatCommand": "weaponsetup",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "850「ブラインド越し」",
+    "loop": true,
+    "chatCommand": "throughblinds",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "851「戦闘準備」",
+    "loop": true,
+    "chatCommand": "preparation",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "852「セルフメンテナンス」",
+    "loop": true,
+    "chatCommand": "selfmaintenance",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "853「オーバーロード」",
+    "loop": "",
+    "chatCommand": "OVERLORD",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "854「シルエットポーズ」",
+    "loop": true,
+    "chatCommand": "silhouettepose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "855「スマートフォン」",
+    "loop": true,
+    "chatCommand": "smartphone",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "857「高速ポージング」",
+    "loop": true,
+    "chatCommand": "rapidposing",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "858「ログアウト」",
+    "loop": "",
+    "chatCommand": "logout",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "859「ハグ2」",
+    "loop": true,
+    "chatCommand": "hug2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "860「ラッピーといっしょ」",
+    "loop": true,
+    "chatCommand": "loverappy",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "861「魔術書を構える+」",
+    "loop": "",
+    "chatCommand": "magicbookpose+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "862「膝枕をしてもらう」",
+    "loop": true,
+    "chatCommand": "lappillow",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "863「空中戦2」",
+    "loop": "",
+    "chatCommand": "airbattle2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "864「札束」",
+    "loop": "",
+    "chatCommand": "cashmoney",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "865「戦闘準備2」",
+    "loop": true,
+    "chatCommand": "preparation2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "866「どうぶつ乗り物」",
+    "loop": "",
+    "chatCommand": "animalrides",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "867「食事」",
+    "loop": "",
+    "chatCommand": "meal",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "868「戦闘準備3」",
+    "loop": "",
+    "chatCommand": "preparation3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "869「玉座に座る」",
+    "loop": true,
+    "chatCommand": "throne",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "870「武器の手入れ2」",
+    "loop": true,
+    "chatCommand": "weaponmaintenance2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "871「ツーショットポーズ」",
+    "loop": "",
+    "chatCommand": "twoshotpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "872「スポットライト」",
+    "loop": true,
+    "chatCommand": "spotlights",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "873「アートポーズ」",
+    "loop": true,
+    "chatCommand": "artpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "874「足組み浮遊」",
+    "loop": true,
+    "chatCommand": "legscrossedfloat",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "875「100時間カレー」",
+    "loop": true,
+    "chatCommand": "100HOURSCURRY",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "876「バイオリンを弾く」",
+    "loop": true,
+    "chatCommand": "playviolin",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "879「スレイヤーポーズ」",
+    "loop": true,
+    "chatCommand": "slayerpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "880「空中戦3」",
+    "loop": true,
+    "chatCommand": "airbattle3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "882「どこでもバスタイム」",
+    "loop": true,
+    "chatCommand": "bathtime",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "883「宙に座る2」",
+    "loop": true,
+    "chatCommand": "floatandsit2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "884「コーヒーブレイク」",
+    "loop": true,
+    "chatCommand": "coffeebreak",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "885「ネコになる」",
+    "loop": true,
+    "chatCommand": "changecat",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "886「帽子を持つ」",
+    "loop": true,
+    "chatCommand": "hatpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "887「砂遊び」",
+    "loop": true,
+    "chatCommand": "sandplay",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "891「指示を出す」",
+    "loop": true,
+    "chatCommand": "givingorders",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "892「PRポーズ8」",
+    "loop": true,
+    "chatCommand": "PRpose8",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "893「大喜び2」",
+    "loop": "",
+    "chatCommand": "joy2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "894「ラッピーぬいぐるみ」",
+    "loop": true,
+    "chatCommand": "rappydoll",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "895「PRポーズ9」",
+    "loop": true,
+    "chatCommand": "PRpose9",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "896「手の甲にキス」",
+    "loop": true,
+    "chatCommand": "handkiss",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "897「ピコットハンマー」",
+    "loop": "",
+    "chatCommand": "squeakyhammer",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "898「ポーズ22+」",
+    "loop": "",
+    "chatCommand": "pose22+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "899「貝殻ベッド」",
+    "loop": true,
+    "chatCommand": "seashellbed",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "900「ナックルポーズ+」",
+    "loop": true,
+    "chatCommand": "knucklepose+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "901「相合傘」",
+    "loop": true,
+    "chatCommand": "sharedumbrella",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "905「よりかかる2」",
+    "loop": true,
+    "chatCommand": "lean3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "908「【推しの子】：アイの決めポーズ」",
+    "loop": true,
+    "chatCommand": "oshinoko",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "909「ヒツギポーズ2+」",
+    "loop": true,
+    "chatCommand": "hitsugipose2+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "910「座って扇ぐ」",
+    "loop": true,
+    "chatCommand": "coolingoff",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "911「富士急×NGS」",
+    "loop": "",
+    "chatCommand": "FujiQ",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "912「勝利ポーズ4+」",
+    "loop": true,
+    "chatCommand": "winnerpose4+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "913「PRポーズ10」",
+    "loop": true,
+    "chatCommand": "PRpose10",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "915「戦闘準備4」",
+    "loop": true,
+    "chatCommand": "preparation4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "916「いないいないばぁ+」",
+    "loop": "",
+    "chatCommand": "peekaboo+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "917「ドンキ×NGSタオル」",
+    "loop": true,
+    "chatCommand": "DonQuijote",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "918「異世界おじさん：剣技」",
+    "loop": true,
+    "chatCommand": "UfAW",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "919「異世界おじさん：オープニング」",
+    "loop": true,
+    "chatCommand": "UfAW2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "920「ダンス70」",
+    "loop": "",
+    "chatCommand": "dance70",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "921「スポットライト2」",
+    "loop": "",
+    "chatCommand": "spotlight2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "922「倒れ込む」",
+    "loop": "",
+    "chatCommand": "fainting",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "923「スプリガン」",
+    "loop": "",
+    "chatCommand": "SPRIGGAN",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "924「勝利ポーズ1+」",
+    "loop": "",
+    "chatCommand": "winnerpose+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "925「勝利ポーズ2+」",
+    "loop": "",
+    "chatCommand": "winnerpose2+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "927「ゴリラタイム」",
+    "loop": "",
+    "chatCommand": "gorilla",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "928「武器を構える2」",
+    "loop": "",
+    "chatCommand": "weaponsetup2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "929「フライングベース3」",
+    "loop": "",
+    "chatCommand": "flyingbase3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "930「フライングベース4」",
+    "loop": "",
+    "chatCommand": "flyingbase4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "931「タチコマ」",
+    "loop": true,
+    "chatCommand": "tachikoma",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "933「イドラキャラポーズ3」",
+    "loop": "",
+    "chatCommand": "idolacharapose3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "934「イドラキャラポーズ4」",
+    "loop": "",
+    "chatCommand": "idolacharapose4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "935「【推しの子】：サインはB」",
+    "loop": true,
+    "chatCommand": "oshinoko2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "937「Voパフォーマンス14」",
+    "loop": "",
+    "chatCommand": "VoPerformance14",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "938「ローソン看板+」",
+    "loop": "",
+    "chatCommand": "LAWSON+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "939「本を読む」",
+    "loop": "",
+    "chatCommand": "reading",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "940「せんとらるっ！」",
+    "loop": "",
+    "chatCommand": "centralgirls",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "941「ギフトボックス」",
+    "loop": "",
+    "chatCommand": "giftbox",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "942「煙突」",
+    "loop": "",
+    "chatCommand": "chimney",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "943「和服待機2」",
+    "loop": "",
+    "chatCommand": "taiki2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "944「和服挨拶」",
+    "loop": "",
+    "chatCommand": "kimonosit",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "945「ジャンプポーズ2」",
+    "loop": "",
+    "chatCommand": "jumppose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "947「ダンス13+」",
+    "loop": "",
+    "chatCommand": "dance13+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "948「ポーズ9+」",
+    "loop": "",
+    "chatCommand": "pose9+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "949「見せびらかす」",
+    "loop": "",
+    "chatCommand": "flaunting",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "950「『七つの大罪』：剣技」",
+    "loop": "",
+    "chatCommand": "TSDS1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "951「『七つの大罪』：ホークといっしょ」",
+    "loop": "",
+    "chatCommand": "TSDS2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "952「ブレイクダンスフリーズ」",
+    "loop": "",
+    "chatCommand": "bdfreeze",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "954「パエリアを食べる」",
+    "loop": "",
+    "chatCommand": "vivapaella",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "955「ムゲンのキセキ」",
+    "loop": "",
+    "chatCommand": "poponadance",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "956「ボードを掲げる」",
+    "loop": "",
+    "chatCommand": "holdupboard",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "957「花を持つ」",
+    "loop": "",
+    "chatCommand": "haveflowers",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "958「アクションヒーローポーズ」",
+    "loop": "",
+    "chatCommand": "actionhero",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "959「肩によりかかる」",
+    "loop": "",
+    "chatCommand": "shoulderpillow",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "960「頭ポンポン」",
+    "loop": "",
+    "chatCommand": "patting",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "961「ネコポーズ+」",
+    "loop": "",
+    "chatCommand": "nekopose+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "962「ボディビル+」",
+    "loop": "",
+    "chatCommand": "bodybuild+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "963「構える3」",
+    "loop": "",
+    "chatCommand": "fightpose3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "964「目からビーム」",
+    "loop": "",
+    "chatCommand": "effectbeam",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "966「番傘ポーズ」",
+    "loop": "",
+    "chatCommand": "bangasa",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "967「手を繋ぐ」",
+    "loop": "",
+    "chatCommand": "handinhand",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "968「武器反映ポーズ」",
+    "loop": "",
+    "chatCommand": "equippose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "969「武器反映ポーズ2」",
+    "loop": "",
+    "chatCommand": "equippose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "970「ダンス71」",
+    "loop": "",
+    "chatCommand": "dance71",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "971「アメイジングマジック」",
+    "loop": "",
+    "chatCommand": "handmagic",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "972「エイエイオー！+」",
+    "loop": "",
+    "chatCommand": "eieio+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "973「やったー+」",
+    "loop": "",
+    "chatCommand": "yatta+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "974「ポーズ25」",
+    "loop": "",
+    "chatCommand": "pose25",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "975「ライザの調合」",
+    "loop": "",
+    "chatCommand": "AtelierRyza",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "976「大きなクマグルミ」",
+    "loop": "",
+    "chatCommand": "bigbeardoll",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "977「バレエポーズ」",
+    "loop": "",
+    "chatCommand": "balletpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "978「アクションヒーローポーズ2」",
+    "loop": "",
+    "chatCommand": "actionhero2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "979「アクションヒーローポーズ3」",
+    "loop": "",
+    "chatCommand": "actionhero3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "980「キツネポーズRev」",
+    "loop": "",
+    "chatCommand": "foxposeR",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "981「空中戦Rev」",
+    "loop": "",
+    "chatCommand": "airbattleR",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "982「ビーチチェアに座るRev」",
+    "loop": "",
+    "chatCommand": "beachchairR",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "983「なかよしポーズRev」",
+    "loop": "",
+    "chatCommand": "chumposeR",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "984「ハートポーズRev」",
+    "loop": "",
+    "chatCommand": "heartposeR",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "985「ウェイカーポーズRev」",
+    "loop": "",
+    "chatCommand": "wakerposeR",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "986「ツーショットポーズRev」",
+    "loop": "",
+    "chatCommand": "twoshotposeR",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "987「手のひらを見るRev」",
+    "loop": "",
+    "chatCommand": "lookR",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "988「空中戦2Rev」",
+    "loop": "",
+    "chatCommand": "airbattle2R",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "989「玉座に座るRev」",
+    "loop": "",
+    "chatCommand": "throneR",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "990「ハートポーズ2Rev」",
+    "loop": "",
+    "chatCommand": "heartpose2R",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "991「ブレイバーポーズRev」",
+    "loop": "",
+    "chatCommand": "braverposeR",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "992「空中戦3Rev」",
+    "loop": "",
+    "chatCommand": "airbattle3R",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "993「ロッドポーズRev」",
+    "loop": "",
+    "chatCommand": "rodposeR",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "994「よりかかる2Rev」",
+    "loop": "",
+    "chatCommand": "lean3R",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "995「宙に座るRev」",
+    "loop": "",
+    "chatCommand": "airchairR",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "996「やっほーRev」",
+    "loop": "",
+    "chatCommand": "helloR",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "997「首をかしげるRev」",
+    "loop": "",
+    "chatCommand": "whatR",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "998「待機中5Rev」",
+    "loop": "",
+    "chatCommand": "waiting5R",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1000「座る4Rev」",
+    "loop": "",
+    "chatCommand": "sit4R",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1001「VoパフォーマンスRev」",
+    "loop": "",
+    "chatCommand": "VoPerformanceR",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1002「PRポーズ4Rev」",
+    "loop": "",
+    "chatCommand": "PRpose4R",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1003「「1」ポーズRev」",
+    "loop": "",
+    "chatCommand": "oneposeR",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1004「「2」ポーズRev」",
+    "loop": "",
+    "chatCommand": "twoposeR",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1005「「3」ポーズRev」",
+    "loop": "",
+    "chatCommand": "threeposeR",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1006「「4」ポーズRev」",
+    "loop": "",
+    "chatCommand": "fourposeR",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1007「「5」ポーズRev」",
+    "loop": "",
+    "chatCommand": "fiveposeR",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1008「腰掛ける2Rev」",
+    "loop": "",
+    "chatCommand": "sitdown2R",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1009「マッスルポーズRev」",
+    "loop": "",
+    "chatCommand": "muscleposeR",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1010「待機中６Rev」",
+    "loop": "",
+    "chatCommand": "waiting6R",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1011「武器反映ポーズ3」",
+    "loop": "",
+    "chatCommand": "equippose3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1012「武器反映ポーズ4」",
+    "loop": "",
+    "chatCommand": "equippose4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1013「シャワーを浴びる」",
+    "loop": "",
+    "chatCommand": "shower",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1014「ツーショットポーズ2」",
+    "loop": "",
+    "chatCommand": "twoshotpose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1015「コードギアス」",
+    "loop": "",
+    "chatCommand": "CODEGEASS",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1016「プール遊び2」",
+    "loop": "",
+    "chatCommand": "pool2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1017「ビーチチェアに座る2」",
+    "loop": "",
+    "chatCommand": "beachchair2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1018「アッチ向いてホイ+」",
+    "loop": "",
+    "chatCommand": "acchimuite+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1019「ラッパー+」",
+    "loop": "",
+    "chatCommand": "rapper+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1020「バリアを張る」",
+    "loop": "",
+    "chatCommand": "barrier",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1021「陰の実力者になりたくて！」",
+    "loop": "",
+    "chatCommand": "shadowgarden",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1022「座る11」",
+    "loop": "",
+    "chatCommand": "sit11",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1023「トロフィーを掲げる」",
+    "loop": "",
+    "chatCommand": "trophy",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1025「囚われの身/B」",
+    "loop": "",
+    "chatCommand": "subjectB",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1026「ホロボールに乗る」",
+    "loop": "",
+    "chatCommand": "holoball",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1027「パラソルRev」",
+    "loop": "",
+    "chatCommand": "parasolR",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1028「パラソル/B」",
+    "loop": "",
+    "chatCommand": "parasolB",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1029「パラソルRev/B」",
+    "loop": "",
+    "chatCommand": "parasolRB",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1030「貝殻ベッド/B」",
+    "loop": "",
+    "chatCommand": "seashellbedB",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1031「星に座る/B」",
+    "loop": "",
+    "chatCommand": "starseatB",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1032「アイスを食べる2/B」",
+    "loop": "",
+    "chatCommand": "icecream2B",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1033「キャンプ/B」",
+    "loop": "",
+    "chatCommand": "campingB",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1034「どこでもお茶会/B」",
+    "loop": "",
+    "chatCommand": "teatimeB",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1035「ログアウト/B」",
+    "loop": "",
+    "chatCommand": "logoutB",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1036「畳/B」",
+    "loop": "",
+    "chatCommand": "tatamiB",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1037「ビーチチェアに座る/B」",
+    "loop": "",
+    "chatCommand": "beachchairB",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1038「ビーチチェアに座るRev/B」",
+    "loop": "",
+    "chatCommand": "beachchairRB",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1039「ポールダンス/B」",
+    "loop": "",
+    "chatCommand": "polldanceB",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1040「どこでもお茶屋/B」",
+    "loop": "",
+    "chatCommand": "ippukuB",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1041「ラインストライク」",
+    "loop": "",
+    "chatCommand": "linestrike",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1042「デッキブラシ」",
+    "loop": "",
+    "chatCommand": "deckbrush",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1043「シャングリラ・フロンティア」",
+    "loop": "",
+    "chatCommand": "ShanFro1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1044「シャングリラ・フロンティア2」",
+    "loop": "",
+    "chatCommand": "ShanFro2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1045「シャングリラ・フロンティア3」",
+    "loop": "",
+    "chatCommand": "ShanFro3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1046「武器反映ポーズ5」",
+    "loop": "",
+    "chatCommand": "equippose5",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1047「武器反映ポーズ6」",
+    "loop": "",
+    "chatCommand": "equippose6",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1048「背中を洗う」",
+    "loop": "",
+    "chatCommand": "washingback",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1049「抱きかかえる」",
+    "loop": "",
+    "chatCommand": "embrace",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1050「ダンス53+」",
+    "loop": "",
+    "chatCommand": "dance53+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1051「ダダをこねる+」",
+    "loop": "",
+    "chatCommand": "fretful+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1053「ハイハイ」",
+    "loop": "",
+    "chatCommand": "crawling",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1054「怪獣8号ポーズ」",
+    "loop": "",
+    "chatCommand": "KaijuNo8p1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1055「怪獣8号ポーズ2」",
+    "loop": "",
+    "chatCommand": "KaijuNo8p2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1056「なかよしポーズ2」",
+    "loop": "",
+    "chatCommand": "chumpose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1057「ネコポーズ2」",
+    "loop": "",
+    "chatCommand": "nekopose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1058「落ち葉あそび」",
+    "loop": "",
+    "chatCommand": "leavesplay",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1059「三三七拍子」",
+    "loop": "",
+    "chatCommand": "337beat",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1060「チアリーダー」",
+    "loop": "",
+    "chatCommand": "cheerleader",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1061「武器反映ポーズ7」",
+    "loop": "",
+    "chatCommand": "equippose7",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1062「武器反映ポーズ8」",
+    "loop": "",
+    "chatCommand": "equippose8",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1063「フライングベース5」",
+    "loop": "",
+    "chatCommand": "flyingbase5",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1064「なかよしポーズ3」",
+    "loop": "",
+    "chatCommand": "chumpose3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1065「ダンス72」",
+    "loop": "",
+    "chatCommand": "dance72",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1066「イドラキャラポーズ5」",
+    "loop": "",
+    "chatCommand": "idolacharapose5",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1067「メルティブラッド：戦闘開始3」",
+    "loop": "",
+    "chatCommand": "MELTYBLOOD3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1068「メルティブラッド：戦闘開始4」",
+    "loop": "",
+    "chatCommand": "MELTYBLOOD4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1069「学校の椅子」",
+    "loop": "",
+    "chatCommand": "schoolchair",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1070「コミカルポーズ」",
+    "loop": "",
+    "chatCommand": "comicalpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1071「武器反映ポーズ9」",
+    "loop": "",
+    "chatCommand": "equippose9",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1072「武器反映ポーズ10」",
+    "loop": "",
+    "chatCommand": "equippose10",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1073「葬送のフリーレン」",
+    "loop": "",
+    "chatCommand": "frieren",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1074「ライトを振る1+」",
+    "loop": "",
+    "chatCommand": "clight1+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1075「ダンス28+」",
+    "loop": "",
+    "chatCommand": "dance28+",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1076「寝返り」",
+    "loop": "",
+    "chatCommand": "rollover",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1077「腕にぶら下がる」",
+    "loop": "",
+    "chatCommand": "hanging",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1078「超電磁砲/ヨハネのペン」",
+    "loop": "",
+    "chatCommand": "toaruIndex1",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1079「幻想殺し」",
+    "loop": "",
+    "chatCommand": "toaruIndex2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1080「雪だるま」",
+    "loop": "",
+    "chatCommand": "snowman",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1081「コーヒーブレイク2」",
+    "loop": "",
+    "chatCommand": "coffeebreak2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1082「ボトルフリップ」",
+    "loop": "",
+    "chatCommand": "bottleflipping",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1083「ダンス73」",
+    "loop": "",
+    "chatCommand": "dance73",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1084「手を振る3」",
+    "loop": "",
+    "chatCommand": "wave3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1086「ソファに座る」",
+    "loop": "",
+    "chatCommand": "longsofa",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1087「エレガントポーズ」",
+    "loop": "",
+    "chatCommand": "elegantpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1088「PRポーズ11」",
+    "loop": "",
+    "chatCommand": "PRpose11",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1089「SEGAロゴ」",
+    "loop": "",
+    "chatCommand": "SEGAlogo",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1091「交通整理2」",
+    "loop": "",
+    "chatCommand": "trafficcontrol2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1092「尾行」",
+    "loop": "",
+    "chatCommand": "tailing",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1096「隠れ撃ち」",
+    "loop": "",
+    "chatCommand": "snipe",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1097「スタンドマイク」",
+    "loop": "",
+    "chatCommand": "standmic",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1098「武器反映ポーズ11」",
+    "loop": "",
+    "chatCommand": "equippose11",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1099「武器反映ポーズ12」",
+    "loop": "",
+    "chatCommand": "equippose12",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1157「SEGAロゴ2」",
+    "loop": "",
+    "chatCommand": "SEGAlogo2",
+    "updateDate": "2025-05-23 00:00:00"
+  }
+]

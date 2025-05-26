@@ -96,7 +96,6 @@ function notify(message: string) {
 const restore = useRestore()
 
 onMounted(async () => {
-  console.log(useRuntimeConfig().public)
   // お気に入り再現
   if (restore.pending && restore.id != null) {
     const record = await getFavorite(restore.id)
@@ -137,12 +136,13 @@ onMounted(async () => {
       // 最新バージョンまでループして差分を取得
       const fromVer = localVersion.value?.version ?? 0
       const toVer = remoteVersion.value!.version
-      const storage = getStorage()
+      // const storage = getStorage()
 
       for (let v = fromVer + 1; v <= toVer; v++) {
         const fileName = `loby_actions_${v}.json`
-        const url = await getDownloadURL(storageRef(storage, fileName))
-
+        // GitHubのrowから直接取得
+        // const url = await getDownloadURL(storageRef(storage, fileName))
+        const url = `https://raw.githubusercontent.com/nagiconection/ngs-ss-generator/refs/heads/main/datas/${fileName}`
         const jsonData: any[] = await fetch(url).then(res => res.json())
         await saveMasterData('loby_actions', jsonData)
       }
