@@ -28,7 +28,7 @@ export const LOBY_ACTION_OPTION = {
     category: '2',
     hasNumber: true,
     minNumber: 0.0,
-    maxNumber: 10.0,
+    maxNumber: 13.0,
     updateDate: '2025-05-23 00:00:00',
   },
   stopActionAfterAlways: {
@@ -37,7 +37,7 @@ export const LOBY_ACTION_OPTION = {
     category: '3',
     hasNumber: true,
     minNumber: 0.0,
-    maxNumber: 10.0,
+    maxNumber: 13.0,
     updateDate: '2025-05-23 00:00:00',
   },
 }

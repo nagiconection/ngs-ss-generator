@@ -133,6 +133,16 @@ onMounted(async () => {
       remoteVersion.value.publish > localVersion.value.publish
 
     if (needUpdate) {
+      // ハンドサインデータは一括取得
+      // 今日の日付のyyyymmdd形式で取得
+      const today = new Date()
+      const todayStr = today.toISOString().split('T')[0].replace(/-/g, '')
+      const handSignFileName = `ha_lobby_actions1.json?${todayStr}`
+      // GitHubのrowから直接取得
+      let url = `https://raw.githubusercontent.com/nagiconection/ngs-ss-generator/refs/heads/main/datas/${handSignFileName}`
+      const jsonData: any[] = await fetch(url).then(res => res.json())
+      await saveHaMasterData('hand_sign', jsonData)
+
       // 最新バージョンまでループして差分を取得
       const fromVer = localVersion.value?.version ?? 0
       const toVer = remoteVersion.value!.version
@@ -142,7 +152,7 @@ onMounted(async () => {
         const fileName = `loby_actions_${v}.json`
         // GitHubのrowから直接取得
         // const url = await getDownloadURL(storageRef(storage, fileName))
-        const url = `https://raw.githubusercontent.com/nagiconection/ngs-ss-generator/refs/heads/main/datas/${fileName}`
+        let url = `https://raw.githubusercontent.com/nagiconection/ngs-ss-generator/refs/heads/main/datas/${fileName}`
         const jsonData: any[] = await fetch(url).then(res => res.json())
         await saveMasterData('loby_actions', jsonData)
       }

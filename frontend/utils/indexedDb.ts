@@ -26,6 +26,10 @@ interface MyDB extends DBSchema {
     key: string
     value: { key: string; value: any[] }
   }
+  masterDataHa: {
+    key: string
+    value: { key: string; value: any[] }
+  }
 }
 
 let dbPromise: Promise<IDBPDatabase<MyDB>>
@@ -45,6 +49,7 @@ export function getDb() {
           keyPath: 'key',
         })
         db.createObjectStore('masterData', { keyPath: 'key' })
+        db.createObjectStore('masterDataHa', { keyPath: 'key' })
       },
     })
   }
@@ -118,7 +123,7 @@ export async function getVersion(
 }
 
 /**
- * マスターデータを保存（JSON 配列を指定のキーで保持）
+ * ロビーアクションデータを保存（JSON 配列を指定のキーで保持）
  */
 export async function saveMasterData(key: string, data: any[]): Promise<void> {
   const db = await getDb()
@@ -129,10 +134,30 @@ export async function saveMasterData(key: string, data: any[]): Promise<void> {
 }
 
 /**
- * マスターデータを取得
+ *  ロビーアクションマスターデータを取得
  */
 export async function getMasterData(key: string): Promise<any[] | undefined> {
   const db = await getDb()
   const rec = await db.get('masterData', key)
+  return rec?.value
+}
+
+/**
+ * ハンドサインマスターデータを保存（JSON 配列を指定のキーで保持）
+ */
+export async function saveHaMasterData(key: string, data: any[]): Promise<void> {
+  const db = await getDb()
+  const rec = await db.get('masterDataHa', key)
+  const existing: any[] = rec?.value ?? []
+  const merged = [...existing, ...data]
+  await db.put('masterDataHa', { key, value: merged })
+}
+
+/**
+ * ハンドサインマスターデータを取得
+ */
+export async function getHaMasterData(key: string): Promise<any[] | undefined> {
+  const db = await getDb()
+  const rec = await db.get('masterDataHa', key)
   return rec?.value
 }
