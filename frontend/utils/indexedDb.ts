@@ -1,5 +1,6 @@
 import { openDB, type DBSchema, type IDBPDatabase } from 'idb'
 import type { CommandFormModel } from '~/models/CommandFormModel'
+import type { Timestamp } from 'firebase/firestore'
 
 // DB スキーマ定義
 interface MyDB extends DBSchema {
@@ -11,6 +12,19 @@ interface MyDB extends DBSchema {
       tab: string
       id?: number
     }
+  }
+  versions: {
+    key: string
+    // Firestore の version ドキュメントの内容
+    value: {
+      key: string
+      version: number
+      publish: number
+    }
+  }
+  masterData: {
+    key: string
+    value: { key: string; value: any[] }
   }
 }
 
@@ -27,6 +41,10 @@ export function getDb() {
           keyPath: 'id',
           autoIncrement: true,
         })
+        db.createObjectStore('versions', {
+          keyPath: 'key',
+        })
+        db.createObjectStore('masterData', { keyPath: 'key' })
       },
     })
   }
@@ -73,4 +91,48 @@ export async function getFavorite(id: number): Promise<MyDB['favorites']['value'
 export async function deleteFavorite(id: number): Promise<void> {
   const db = await getDb()
   await db.delete('favorites', id)
+}
+
+/**
+ * version 情報を保存
+ * @param key ストア内のキー（例: 'version'）
+ * @param version Firestore から取得した version レコード
+ */
+export async function saveVersion(
+  key: string,
+  version: { version: number; publish: number }
+): Promise<void> {
+  const db = await getDb()
+  await db.put('versions', { key, version: version.version, publish: version.publish })
+}
+
+/**
+ * version 情報を取得
+ * @param key ストア内のキー（例: 'version'）
+ */
+export async function getVersion(
+  key: string
+): Promise<{ version: number; publish: number } | undefined> {
+  const db = await getDb()
+  return db.get('versions', key)
+}
+
+/**
+ * マスターデータを保存（JSON 配列を指定のキーで保持）
+ */
+export async function saveMasterData(key: string, data: any[]): Promise<void> {
+  const db = await getDb()
+  const rec = await db.get('masterData', key)
+  const existing: any[] = rec?.value ?? []
+  const merged = [...existing, ...data]
+  await db.put('masterData', { key, value: merged })
+}
+
+/**
+ * マスターデータを取得
+ */
+export async function getMasterData(key: string): Promise<any[] | undefined> {
+  const db = await getDb()
+  const rec = await db.get('masterData', key)
+  return rec?.value
 }

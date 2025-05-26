@@ -24,4 +24,12 @@ export default defineNuxtConfig({
   nitro: {
     preset: 'static',
   },
+  runtimeConfig: {
+    firebaseServiceAccount: process.env.FIREBASE_SERVICE_ACCOUNT_JSON,
+    public: {
+      firebaseApiKey: process.env.FIREBASE_API_KEY,
+      firebaseProjectId: process.env.FIREBASE_PROJECT_ID,
+      firebaseStorageBucket: process.env.FIREBASE_STORAGE_BUCKET,
+    },
+  },
 })
