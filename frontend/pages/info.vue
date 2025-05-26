@@ -19,7 +19,7 @@
           target="_blank"
           class="text-decoration-none"
         >
-          GitHbub
+          GitHub
         </a>
       </v-card-text>
     </v-card>
