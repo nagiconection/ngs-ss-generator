@@ -1,0 +1,287 @@
+[
+  {
+    "name": "Ha「グー」",
+    "chatCommand": "ha clenchedfist",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「グー2」",
+    "chatCommand": "ha clenchedfist2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「グー3」",
+    "chatCommand": "ha clenchedfist3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「グー4」",
+    "chatCommand": "ha clenchedfist4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「親指」",
+    "chatCommand": "ha thumbsup",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「親指2」",
+    "chatCommand": "ha thumbsup2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「人差し指」",
+    "chatCommand": "ha raiseindexfinger",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「小指」",
+    "chatCommand": "ha raiselittlefinger",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「小指2」",
+    "chatCommand": "ha raiselittlefinger2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「小指3」",
+    "chatCommand": "ha raiselittlefinger3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「小指4」",
+    "chatCommand": "ha raiselittlefinger4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「Lの字」",
+    "chatCommand": "ha lsign",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「Lの字2」",
+    "chatCommand": "/la lsign2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「Uの字」",
+    "chatCommand": "ha usign",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「Uの字2」",
+    "chatCommand": "ha usign2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「Wの字」",
+    "chatCommand": "ha wsign",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「かぎ爪」",
+    "chatCommand": "ha claw",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「かぎ爪2」",
+    "chatCommand": "ha claw2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「ピース」",
+    "chatCommand": "ha peacesign",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「ピース2」",
+    "chatCommand": "ha peacesign2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「つまむ」",
+    "chatCommand": "ha pinch",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「三本指」",
+    "chatCommand": "ha 3fingerpose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「三本指2」",
+    "chatCommand": "ha 3fingerpose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「キツネ」",
+    "chatCommand": "ha foxsign",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「キツネ2」",
+    "chatCommand": "ha foxsign2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「アロハ」",
+    "chatCommand": "ha aloha",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「ロックユー」",
+    "chatCommand": "ha rockyou",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「フィンガーハート」",
+    "chatCommand": "ha fingerheart",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「手をひらく」",
+    "chatCommand": "ha openhand",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「手をひらく2」",
+    "chatCommand": "ha openhand2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「手をひらく3」",
+    "chatCommand": "ha openhand3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「手をひらく4」",
+    "chatCommand": "ha openhand4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「手をひらく5」",
+    "chatCommand": "ha openhand5",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「手をひらく6」",
+    "chatCommand": "ha openhand6",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「手をひらく7」",
+    "chatCommand": "ha openhand7",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「手をひらく8」",
+    "chatCommand": "ha openhand8",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「手をひらく9」",
+    "chatCommand": "/la openhand9",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「猫の手」",
+    "chatCommand": "ha cathand",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「とじひらき」",
+    "chatCommand": "ha openandclose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「とじひらき2」",
+    "chatCommand": "ha openandclose2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「とじひらき3」",
+    "chatCommand": "ha openandclose3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「とじひらき4」",
+    "chatCommand": "ha openandclose4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「とじひらき5」",
+    "chatCommand": "ha openandclose5",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「人差し指をふる」",
+    "chatCommand": "ha fingershake",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「人差し指をふる2」",
+    "chatCommand": "ha fingershake2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「握る」",
+    "chatCommand": "ha graspthings",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「握る2」",
+    "chatCommand": "ha graspthings2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「チョキチョキ」",
+    "chatCommand": "ha chopchop",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「ゆるくにぎる」",
+    "chatCommand": "ha halfopen",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「ゆるくにぎる2」",
+    "chatCommand": "ha halfopen2",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「ゆるくにぎる3」",
+    "chatCommand": "/ha halfopen3",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「ゆるくにぎる4」",
+    "chatCommand": "/la halfopen4",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「フィンガークオート」",
+    "chatCommand": "ha fingerquotes",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「クロスフィンガー」",
+    "chatCommand": "ha crossfingers",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「ゆるピース」",
+    "chatCommand": "ha loosepeace",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「決めポーズ」",
+    "chatCommand": "ha signaturepose",
+    "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "Ha「決めポーズ2」",
+    "chatCommand": "/la signaturepose2",
+    "updateDate": "2025-05-23 00:00:00"
+  }
+]
