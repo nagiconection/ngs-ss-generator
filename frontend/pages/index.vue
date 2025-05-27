@@ -133,7 +133,7 @@ onMounted(async () => {
       remoteVersion.value.publish > localVersion.value.publish
 
     if (needUpdate) {
-      // ハンドサインデータは一括取得
+      // ハンドサインデータは一括取得一括更新
       // 今日の日付のyyyymmdd形式で取得
       const today = new Date()
       const todayStr = today.toISOString().split('T')[0].replace(/-/g, '')
