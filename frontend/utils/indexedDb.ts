@@ -147,10 +147,7 @@ export async function getMasterData(key: string): Promise<any[] | undefined> {
  */
 export async function saveHaMasterData(key: string, data: any[]): Promise<void> {
   const db = await getDb()
-  const rec = await db.get('masterDataHa', key)
-  const existing: any[] = rec?.value ?? []
-  const merged = [...existing, ...data]
-  await db.put('masterDataHa', { key, value: merged })
+  await db.put('masterDataHa', { key, value: data })
 }
 
 /**
