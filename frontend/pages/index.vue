@@ -44,7 +44,7 @@
 import { ref, reactive, onMounted } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { createDefaultCommandFormModel, createDisabledFormModel } from '~/models/CommandFormModel'
-import { getFavorite } from '~/utils/indexedDb'
+import { getFavorite, saveExOpMasterData } from '~/utils/indexedDb'
 import { useRestore, clearRestore } from '~/composables/useRestore'
 
 import { doc, getDoc, Timestamp } from 'firebase/firestore'
@@ -140,22 +140,20 @@ onMounted(async () => {
       const handSignFileName = `ha_lobby_actions1.json?${todayStr}`
       // GitHubのrowから直接取得
       let url = `https://raw.githubusercontent.com/nagiconection/ngs-ss-generator/refs/heads/main/datas/${handSignFileName}`
-      const jsonData: any[] = await fetch(url).then(res => res.json())
-      await saveHaMasterData('hand_sign', jsonData)
+      const jsonDataHand: any[] = await fetch(url).then(res => res.json())
+      await saveHaMasterData('hand_sign', jsonDataHand)
 
-      // 最新バージョンまでループして差分を取得
-      const fromVer = localVersion.value?.version ?? 0
-      const toVer = remoteVersion.value!.version
-      // const storage = getStorage()
+      // GitHubのrowから直接取得
+      const exoptionsFileName = `ex_options.json?${todayStr}`
+      url = `https://raw.githubusercontent.com/nagiconection/ngs-ss-generator/refs/heads/main/datas/${exoptionsFileName}`
+      const jsonDataExOptions: any[] = await fetch(url).then(res => res.json())
+      await saveExOpMasterData('ex_options', jsonDataExOptions)
 
-      for (let v = fromVer + 1; v <= toVer; v++) {
-        const fileName = `loby_actions_${v}.json`
-        // GitHubのrowから直接取得
-        // const url = await getDownloadURL(storageRef(storage, fileName))
-        let url = `https://raw.githubusercontent.com/nagiconection/ngs-ss-generator/refs/heads/main/datas/${fileName}`
-        const jsonData: any[] = await fetch(url).then(res => res.json())
-        await saveMasterData('loby_actions', jsonData)
-      }
+      const LobyActionfileName = `loby_actions_1.json?${todayStr}`
+      // GitHubのrowから直接取得
+      url = `https://raw.githubusercontent.com/nagiconection/ngs-ss-generator/refs/heads/main/datas/${LobyActionfileName}`
+      const jsonDataLobyAction: any[] = await fetch(url).then(res => res.json())
+      await saveMasterData('loby_actions', jsonDataLobyAction)
 
       // IndexedDB に最新情報を保存
       await saveVersion('version', {

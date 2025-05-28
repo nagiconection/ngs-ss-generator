@@ -6636,24 +6636,6 @@
     "updateDate": "2025-05-23 00:00:00"
   },
   {
-    "name": "1093「組手+」",
-    "loop": "",
-    "chatCommand": "/la kumite+",
-    "updateDate": "2025-05-27 22:51:00"
-  },
-  {
-    "name": "1094「バーベキュー+」",
-    "loop": "",
-    "chatCommand": "/la bbq+",
-    "updateDate": "2025-05-27 22:51:00"
-  },
-  {
-    "name": "1095「転がる」",
-    "loop": "",
-    "chatCommand": "/la rolling",
-    "updateDate": "2025-05-27 22:51:00"
-  },
-  {
     "name": "1096「隠れ撃ち」",
     "loop": "",
     "chatCommand": "snipe",
@@ -6676,24 +6658,6 @@
     "loop": "",
     "chatCommand": "equippose12",
     "updateDate": "2025-05-23 00:00:00"
-  },
-  {
-    "name": "1100「転生したらスライムだった件」",
-    "loop": "",
-    "chatCommand": "/la tensura1",
-    "updateDate": "2025-05-27 22:51:00"
-  },
-  {
-    "name": "1101「転生したらスライムだった件2」",
-    "loop": "",
-    "chatCommand": "/la tensura2",
-    "updateDate": "2025-05-27 22:51:00"
-  },
-  {
-    "name": "1102「転生したらスライムだった件3」",
-    "loop": "",
-    "chatCommand": "/la tensura3",
-    "updateDate": "2025-05-27 22:51:00"
   },
   {
     "name": "1157「SEGAロゴ2」",
