@@ -19,6 +19,9 @@
         <v-list-item to="/favorites" link prepend-icon="mdi-heart">
           <v-list-item-title>お気に入り</v-list-item-title>
         </v-list-item>
+        <v-list-item to="/exoptions" link prepend-icon="mdi-shield-sword-outline">
+          <v-list-item-title>EXOPClip</v-list-item-title>
+        </v-list-item>
         <v-list-item to="/news" link prepend-icon="mdi-bell">
           <v-list-item-title>お知らせ</v-list-item-title>
         </v-list-item>

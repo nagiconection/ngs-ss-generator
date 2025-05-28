@@ -30,6 +30,14 @@ interface MyDB extends DBSchema {
     key: string
     value: { key: string; value: any[] }
   }
+  masterDataExOp: {
+    key: string
+    value: { key: string; value: any[] }
+  }
+  cardsState: {
+    key: string
+    value: { key: string; value: any[] }
+  }
 }
 
 let dbPromise: Promise<IDBPDatabase<MyDB>>
@@ -39,20 +47,33 @@ let dbPromise: Promise<IDBPDatabase<MyDB>>
  */
 export function getDb() {
   if (!dbPromise) {
-    dbPromise = openDB<MyDB>('ngs-ss-generator', 1, {
+    dbPromise = openDB<MyDB>('ngs-ss-generator', 3, {
       upgrade(db) {
-        db.createObjectStore('favorites', {
-          keyPath: 'id',
-          autoIncrement: true,
-        })
-        db.createObjectStore('versions', {
-          keyPath: 'key',
-        })
-        db.createObjectStore('masterData', { keyPath: 'key' })
-        db.createObjectStore('masterDataHa', { keyPath: 'key' })
+        if (!db.objectStoreNames.contains('favorites')) {
+          db.createObjectStore('favorites', {
+            keyPath: 'id',
+            autoIncrement: true,
+          })
+        }
+        if (!db.objectStoreNames.contains('versions')) {
+          db.createObjectStore('versions', { keyPath: 'key' })
+        }
+        if (!db.objectStoreNames.contains('masterData')) {
+          db.createObjectStore('masterData', { keyPath: 'key' })
+        }
+        if (!db.objectStoreNames.contains('masterDataHa')) {
+          db.createObjectStore('masterDataHa', { keyPath: 'key' })
+        }
+        if (!db.objectStoreNames.contains('masterDataExOp')) {
+          db.createObjectStore('masterDataExOp', { keyPath: 'key' })
+        }
+        if (!db.objectStoreNames.contains('cardsState')) {
+          db.createObjectStore('cardsState', { keyPath: 'key' })
+        }
       },
     })
   }
+
   return dbPromise
 }
 
@@ -127,10 +148,7 @@ export async function getVersion(
  */
 export async function saveMasterData(key: string, data: any[]): Promise<void> {
   const db = await getDb()
-  const rec = await db.get('masterData', key)
-  const existing: any[] = rec?.value ?? []
-  const merged = [...existing, ...data]
-  await db.put('masterData', { key, value: merged })
+  await db.put('masterData', { key, value: data })
 }
 
 /**
@@ -156,5 +174,22 @@ export async function saveHaMasterData(key: string, data: any[]): Promise<void> 
 export async function getHaMasterData(key: string): Promise<any[] | undefined> {
   const db = await getDb()
   const rec = await db.get('masterDataHa', key)
+  return rec?.value
+}
+
+/**
+ * EXオプションマスターデータを保存（JSON 配列を指定のキーで保持）
+ */
+export async function saveExOpMasterData(key: string, data: any[]): Promise<void> {
+  const db = await getDb()
+  await db.put('masterDataExOp', { key, value: data })
+}
+
+/**
+ * ハンドサインマスターデータを取得
+ */
+export async function getExOpMasterData(key: string): Promise<any[] | undefined> {
+  const db = await getDb()
+  const rec = await db.get('masterDataExOp', key)
   return rec?.value
 }
