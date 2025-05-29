@@ -25,7 +25,16 @@
                   label="EXオプション"
                   clearable
                   density="compact"
-                />
+                >
+                  <template v-slot:item="{ item, props }">
+                    <v-tooltip location="top">
+                      <template #activator="{ props: tooltipProps }">
+                        <v-list-item v-bind="{ ...props, ...tooltipProps }"></v-list-item>
+                      </template>
+                      <span>{{ item.raw.description }}</span>
+                    </v-tooltip>
+                  </template>
+                </v-autocomplete>
               </v-col>
               <v-col cols="2" class="d-flex justify-center">
                 <v-btn
@@ -35,6 +44,11 @@
                 >
                   <v-icon>mdi-content-copy</v-icon>
                 </v-btn>
+              </v-col>
+            </v-row>
+            <v-row>
+              <v-col cols="12" class="text-subtitle-1 text-right">
+                合計効果: {{ cardDurations[cardIndex] }} %
               </v-col>
             </v-row>
           </v-card-text>
@@ -96,7 +110,7 @@ import { ref, onMounted } from 'vue'
 import { TEMPLATE_EX_OP } from '@/constants/const'
 
 // EXオプションの候補データ（IndexedDBから取得）
-const exOptions = ref<{ name: string; text: string }[]>([])
+const exOptions = ref<{ name: string; description: string; duration: number }[]>([])
 
 // カードごとの選択状態（3項目ずつ）
 const cards = ref<string[][]>([['', '', '']])
@@ -131,27 +145,17 @@ function confirmLoadTemplate(): void {
 }
 
 /**
- * IndexedDBからマスターデータを取得する
- * @param key データキー（例: 'ex_options'）
- * @returns マスターデータ配列
- */
-async function getMasterData(key: string): Promise<any[]> {
-  const db = await getDb()
-  const rec = await db.get('masterDataHa', key)
-  return rec?.value ?? []
-}
-
-/**
  * コンポーネントマウント時の初期処理：
  * - EXオプションの読み込み
  * - 保存されたカードデータの復元
  */
 onMounted(async () => {
-  const data = await getMasterData('ex_options')
+  const data = await getExOpMasterData('ex_options')
   if (data) {
     exOptions.value = data.map((exoption: any) => ({
       name: exoption.name,
-      text: exoption.text,
+      description: exoption.description,
+      duration: exoption.duration,
     }))
   }
 
@@ -160,6 +164,18 @@ onMounted(async () => {
   if (stored?.value && Array.isArray(stored.value)) {
     cards.value = stored.value
   }
+})
+
+/**
+ * EX合計を合算させる
+ */
+const cardDurations = computed(() => {
+  return cards.value.map(card =>
+    card.reduce((sum, name) => {
+      const found = exOptions.value.find(option => option.name === name)
+      return sum + (found?.duration ?? 0)
+    }, 0)
+  )
 })
 
 /**
