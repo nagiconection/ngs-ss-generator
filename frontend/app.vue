@@ -66,13 +66,13 @@ useHead({
     { name: 'description', content: 'PSO2NGSのスクショチャットコマンドを簡単に作成！' },
     { property: 'og:title', content: 'NGS SS Generator' },
     { property: 'og:description', content: 'PSO2NGSのスクショチャットコマンドを簡単に作成！' },
-    { property: 'og:image', content: 'https://ngs-ss-generator-fb.web.app/ogp.png' },
+    { property: 'og:image', content: 'https://ngs-ss-generator-fb.web.app/ogp.png?v=2' },
     { property: 'og:url', content: 'https://ngs-ss-generator-fb.web.app/' },
     { property: 'og:type', content: 'website' },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'NGS SS Generator' },
     { name: 'twitter:description', content: 'PSO2NGSのスクショチャットコマンドを簡単に作成！' },
-    { name: 'twitter:image', content: 'https://ngs-ss-generator-fb.web.app/ogp.png' },
+    { name: 'twitter:image', content: 'https://ngs-ss-generator-fb.web.app/ogp.png?v=2' },
   ],
   script: [
     {
