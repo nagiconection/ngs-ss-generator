@@ -54,4 +54,40 @@ const drawer = ref(!isMobile.value)
 watch(isMobile, val => {
   drawer.value = !val
 })
+
+useHead({
+  title: 'NGS SS Generator',
+  htmlAttrs: {
+    lang: 'ja',
+  },
+  link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+  meta: [
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+    { name: 'description', content: 'PSO2NGSのスクショチャットコマンドを簡単に作成！' },
+    { property: 'og:title', content: 'NGS SS Generator' },
+    { property: 'og:description', content: 'PSO2NGSのスクショチャットコマンドを簡単に作成！' },
+    { property: 'og:image', content: 'https://ngs-ss-generator-fb.web.app/ogp.png' },
+    { property: 'og:url', content: 'https://ngs-ss-generator-fb.web.app/' },
+    { property: 'og:type', content: 'website' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'NGS SS Generator' },
+    { name: 'twitter:description', content: 'PSO2NGSのスクショチャットコマンドを簡単に作成！' },
+    { name: 'twitter:image', content: 'https://ngs-ss-generator-fb.web.app/ogp.png' },
+  ],
+  script: [
+    {
+      async: true,
+      src: 'https://www.googletagmanager.com/gtag/js?id=G-W2Z7GGMM5H',
+    },
+    {
+      innerHTML: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-W2Z7GGMM5H');
+      `,
+      type: 'text/javascript',
+    },
+  ],
+})
 </script>
