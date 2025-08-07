@@ -47,7 +47,7 @@ let dbPromise: Promise<IDBPDatabase<MyDB>>
  */
 export function getDb() {
   if (!dbPromise) {
-    dbPromise = openDB<MyDB>('ngs-ss-generator', 3, {
+    dbPromise = openDB<MyDB>('ngs-ss-generator', 4, {
       upgrade(db) {
         if (!db.objectStoreNames.contains('favorites')) {
           db.createObjectStore('favorites', {
