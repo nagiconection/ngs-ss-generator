@@ -6696,9 +6696,81 @@
     "updateDate": "2025-05-27 22:51:00"
   },
   {
+    "name": "1103「白刃取り」",
+    "loop": "",
+    "chatCommand": "/la swordcatch",
+    "updateDate": "2025-08-08 00:00:00"
+  },
+  {
+    "name": "1104「武器反映ポーズ13」",
+    "loop": "",
+    "chatCommand": "/la equippose13",
+    "updateDate": "2025-08-08 00:00:00"
+  },
+  {
+    "name": "1105「乾杯2」",
+    "loop": "",
+    "chatCommand": "/la cheers2",
+    "updateDate": "2025-08-08 00:00:00"
+  },
+  {
+    "name": "1106「ダンス74」",
+    "loop": "",
+    "chatCommand": "/la dance74",
+    "updateDate": "2025-08-08 00:00:00"
+  },
+  {
+    "name": "1107「アルカナディア」",
+    "loop": "",
+    "chatCommand": "/la arcanadea1",
+    "updateDate": "2025-08-08 00:00:00"
+  },
+  {
+    "name": "1108「アルカナディア2」",
+    "loop": "",
+    "chatCommand": "/la arcanadea2",
+    "updateDate": "2025-08-08 00:00:00"
+  },
+  {
+    "name": "1109「アルカナディア3」",
+    "loop": "",
+    "chatCommand": "/la arcanadea3",
+    "updateDate": "2025-08-08 00:00:00"
+  },
+  {
+    "name": "1110「アルカナディア4」",
+    "loop": "",
+    "chatCommand": "/la arcanadea4",
+    "updateDate": "2025-08-08 00:00:00"
+  },
+  {
+    "name": "1111「フォトポーズ」",
+    "loop": "",
+    "chatCommand": "/la photopose",
+    "updateDate": "2025-08-08 00:00:00"
+  },
+  {
+    "name": "1112「モデル3」",
+    "loop": "",
+    "chatCommand": "/la model3",
+    "updateDate": "2025-08-08 00:00:00"
+  },
+  {
+    "name": "1113「チルノのパーフェクトさんすう教室」",
+    "loop": "",
+    "chatCommand": "/la TouhouProject",
+    "updateDate": "2025-08-08 00:00:00"
+  },
+  {
     "name": "1157「SEGAロゴ2」",
     "loop": "",
     "chatCommand": "SEGAlogo2",
     "updateDate": "2025-05-23 00:00:00"
+  },
+  {
+    "name": "1161「【敗者】ポーズ+」",
+    "loop": "",
+    "chatCommand": "/la loserpose+",
+    "updateDate": "2025-08-08 00:00:00"
   }
 ]
